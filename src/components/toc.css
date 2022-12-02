@@ -1,0 +1,33 @@
+.tocstyle ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 2em;
+}
+
+.tocstyle ul li {
+    font-size: 0.9em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.tocstyle ul li > ul {
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.tocstyle ul ul > li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.tocstyle ul a {
+    text-decoration:none;
+    box-shadow: none;
+    color: silver;
+}
+
+.tocstyle ul a:hover {
+    text-decoration:none;
+    box-shadow: none;
+    color: black;
+}
