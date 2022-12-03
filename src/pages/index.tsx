@@ -21,14 +21,17 @@ const Home = ({ data, location }) => {
       
       <h2 style={{paddingTop:"3em"}}>最新記事</h2>
       <News />
+      <div style={{textAlign:"right"}}>
+        <Link to="/articles/" >{"記事一覧 >"}</Link>
+      </div>
 
       <h2 style={{paddingTop:"3em"}}>プロフィール</h2>
+      <Bio />
       <div style={{textAlign:"right"}}>
         <Link to="/profile/" >{"プロフィール詳細 >"}</Link>
       </div>
-      <Bio />
 
-      <h2 style={{paddingTop:"1em"}}>サイト変遷</h2>
+      <h2 style={{paddingTop:"3em"}}>サイト変遷</h2>
       <p>
         2021/10  middeniiサイトの設立(AWS Lightsail + WordPress)<br />
         2021/12  middeniiサイトの移設(GitHub Pages + GatsbyJS)<br />

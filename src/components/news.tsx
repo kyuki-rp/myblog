@@ -40,9 +40,6 @@ function News() {
 
   return (  
     <>
-      <div style={{textAlign:"right"}}>
-        <Link to="/articles/" >{"記事一覧 >"}</Link>
-      </div>
       {posts.map(post => {
         return (
           <div className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px", width:"100%", textAlign:"left"}}>

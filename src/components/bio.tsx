@@ -33,19 +33,20 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
+
+    <div className="row">
+      <div className="col-sm-12 col-md-3">
       <a href="/profile/" >
       <StaticImage
-        className="bio-avatar"
         layout="constrained"
-        formats={["auto", "webp", "avif"]}
         src="../images/profile-pic.png"
-        width={100}
-        height={100}
+        style={{maxWidth:150}}
         quality={95}
         alt="Profile picture"
       />
       </a>
+      </div>
+      <div className="col-sm-12 col-md-9">
       {author?.name && (
         <p>
           <strong style={{fontSize:"120%"}}>{author.name}</strong><br />
@@ -55,9 +56,10 @@ const Bio = () => {
           </button>
           <button onClick={() => window.open(`https://twitter.com/${social?.twitter}/`, '_blank', 'noreferrer')} style={{ border:"none", outline:"none", background:"transparent", paddingRight:"0.2em"}}>
             <i className="fa fa-twitter fa-2x" style={{color: "lightgrey"}} aria-hidden="true"></i>
-          </button>          
+          </button>
         </p>
       )}
+      </div>
     </div>
   )
 }
