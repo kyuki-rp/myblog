@@ -35,7 +35,7 @@ const Home = ({ data, location }) => {
       <p>
         2021/10  middeniiサイトの設立(AWS Lightsail + WordPress)<br />
         2021/12  middeniiサイトの移設(GitHub Pages + GatsbyJS)<br />
-        2022/12  middeniiサイトの更新、移設(AWS Amplify + GatsbyJS)<br />
+        2022/12  middeniiサイトの更新、移設(Vercel + GatsbyJS)<br />
       </p>
       
     </Layout>
