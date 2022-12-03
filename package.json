@@ -12,6 +12,7 @@
     "font-awesome": "^4.7.0",
     "gatsby": "^4.24.6",
     "gatsby-plugin-feed": "^4.24.0",
+    "gatsby-plugin-google-gtag": "^5.2.0",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-sharp": "^4.24.0",

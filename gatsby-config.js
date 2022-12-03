@@ -16,6 +16,15 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sitemap`,  //追加
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-8907X436NC"],  // 控えておいた、測定IDを記載します。
+        pluginConfig: {
+          head: true  // headタグに記載されるようにコンフィグを設定します。
+        }
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
