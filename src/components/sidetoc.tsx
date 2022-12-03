@@ -4,6 +4,7 @@ import { useLocation } from "@reach/router"
 
 import './toc.css'
 
+
 const SideToc = ({toc}) => {
     const location = useLocation();
     const insideRef = useRef(null);

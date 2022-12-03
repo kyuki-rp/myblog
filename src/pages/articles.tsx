@@ -6,10 +6,6 @@ import Seo from "../components/seo"
 import PostCard from "../components/postcard"
 
 
-import { StaticImage } from "gatsby-plugin-image"
-
-
-
 const Articles = ({ data, location }) => {
   const siteTitle = "記事一覧"
   const posts = data.allMarkdownRemark.nodes

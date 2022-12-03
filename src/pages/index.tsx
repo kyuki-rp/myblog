@@ -9,7 +9,6 @@ import News from "../components/news"
 import { StaticImage } from "gatsby-plugin-image"
 
 
-
 const Home = ({ data, location }) => {
   const siteTitle = "Abouts"
   const posts = data.allMarkdownRemark.nodes

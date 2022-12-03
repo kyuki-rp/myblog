@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import FixedMenu from '../components/fixedmenu'
 
+
 const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === '/'
 

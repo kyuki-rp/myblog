@@ -8,6 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import 'font-awesome/css/font-awesome.min.css';
 
+
 const Works = ({ data, location }) => {
   const siteTitle = "Works"
 

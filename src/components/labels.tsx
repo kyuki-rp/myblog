@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 
 import 'font-awesome/css/font-awesome.min.css';
 
+
 const Labels = ({ category, tags }) => {
     return (
       <div>

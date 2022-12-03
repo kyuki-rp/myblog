@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+
 const Policy = ({ data, location }) => {
   const siteTitle = "プライバシーポリシー/免責事項"
 

@@ -6,6 +6,7 @@ import GoBack from "../components/goback"
 
 import { StaticImage } from "gatsby-plugin-image"
 
+
 const Thanks = ({ data, location }) => {
   const siteTitle = "Thanks"
 
