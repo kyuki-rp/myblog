@@ -23,9 +23,8 @@ const Profile = ({ data, location }) => {
       <ul>
         <li>データ分析</li>
         <li>AIエンジニアリング</li>
-        <li>システム開発</li>
-        <li>業務自動化</li>
         <li>数値シミュレーション</li>
+        <li>プログラミング指導</li>
       </ul>
 
       <h2 style={{paddingTop:"1em"}}>職歴</h2>
