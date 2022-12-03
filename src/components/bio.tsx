@@ -34,7 +34,7 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <a href="/profile" >
+      <a href="/profile/" >
       <StaticImage
         className="bio-avatar"
         layout="constrained"
@@ -50,10 +50,10 @@ const Bio = () => {
         <p>
           <strong style={{fontSize:"120%"}}>{author.name}</strong><br />
           <p style={{fontSize:"90%", whiteSpace: "pre-wrap"}}>{author?.summary}</p>
-          <button onClick={() => window.open(`https://github.com/${social?.github}`, '_blank', 'noreferrer')} style={{ border:"none", outline:"none", background:"transparent", paddingRight:"0.2em"}}>
+          <button onClick={() => window.open(`https://github.com/${social?.github}/`, '_blank', 'noreferrer')} style={{ border:"none", outline:"none", background:"transparent", paddingRight:"0.2em"}}>
             <i className="fa fa-github fa-2x" style={{color: "lightgrey"}} aria-hidden="true"></i>
           </button>
-          <button onClick={() => window.open(`https://twitter.com/${social?.twitter}`, '_blank', 'noreferrer')} style={{ border:"none", outline:"none", background:"transparent", paddingRight:"0.2em"}}>
+          <button onClick={() => window.open(`https://twitter.com/${social?.twitter}/`, '_blank', 'noreferrer')} style={{ border:"none", outline:"none", background:"transparent", paddingRight:"0.2em"}}>
             <i className="fa fa-twitter fa-2x" style={{color: "lightgrey"}} aria-hidden="true"></i>
           </button>          
         </p>
