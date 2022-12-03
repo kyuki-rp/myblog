@@ -41,7 +41,7 @@ function News() {
   return (  
     <>
       <div style={{textAlign:"right"}}>
-        <Link to="/articles" >{"記事一覧 >"}</Link>
+        <Link to="/articles/" >{"記事一覧 >"}</Link>
       </div>
       {posts.map(post => {
         return (

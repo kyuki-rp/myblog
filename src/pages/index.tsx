@@ -24,7 +24,7 @@ const Home = ({ data, location }) => {
 
       <h2 style={{paddingTop:"3em"}}>プロフィール</h2>
       <div style={{textAlign:"right"}}>
-        <Link to="/profile" >{"プロフィール詳細 >"}</Link>
+        <Link to="/profile/" >{"プロフィール詳細 >"}</Link>
       </div>
       <Bio />
 
