@@ -29,11 +29,12 @@ const SideToc = ({toc}) => {
     
         //クリックした時に実行する関数
         const hundleClickOutside = (e) => {
+          console.log(e)
+
           if (e.target.id === 'background') {
               setsidebarOpen(false)
           }
         };
-        console.log(el)
     
         //クリックイベントを設定
         document.addEventListener("click", hundleClickOutside);
@@ -73,19 +74,22 @@ const SideToc = ({toc}) => {
             </button>
           }
           { sidebarOpen &&
+            <>
             <div id="background" style={{position:"fixed", top:"0", left:"0", width:"100%", height:"100%", backgroundColor:"rgba(0,0,0,0.5)"}} ref={insideRef}>
-              <div id="sidetoc" className="col-12 col-md-6 col-lg-4" style={{position:"fixed", top:"0", left:"0", height:"100%", backgroundColor:"white"}}>
-                <div style={{marginTop:"4rem", textAlign:"right"}}>
-                  <button onClick={() => onClick(false)} style={{border:"none", background:"transparent", color:"silver", opacity: "0.5"}}>
-                    <i className="fa fa-close fa-3x"></i>
-                  </button>
-                </div>
-                <div style={{padding: "1rem 2rem"}}>
-                  <h3 style={{color:"silver"}}><i className="fa fa-list-ul fa-x"></i> 目次</h3>
-                  <div className="tocstyle" dangerouslySetInnerHTML={{ __html: toc }} itemProp="articleBody"/>
-                </div>
+            <div id="sidetoc" style={{position:"fixed", top:"0", left:"0", width:"calc(35rem)", maxWidth:"100%", height:"100%", backgroundColor:"white"}}>
+              <div style={{marginTop:"4rem", textAlign:"right"}}>
+                <button onClick={() => onClick(false)} style={{border:"none", background:"transparent", color:"silver", opacity: "0.5"}}>
+                  <i className="fa fa-close fa-3x"></i>
+                </button>
               </div>
+              <h3 style={{padding: "1rem 2rem", color:"silver"}}>
+                <i className="fa fa-list-ul fa-x"></i> 目次
+              </h3>
+              <div className="tocstyle" dangerouslySetInnerHTML={{ __html: toc }} itemProp="articleBody"/>
             </div>
+            </div>
+
+            </>
           }
 
         </div>
