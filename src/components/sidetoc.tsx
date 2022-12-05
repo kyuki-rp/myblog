@@ -76,7 +76,7 @@ const SideToc = ({toc}) => {
           { sidebarOpen &&
             <>
             <div id="background" style={{position:"fixed", top:"0", left:"0", width:"100%", height:"100%", backgroundColor:"rgba(0,0,0,0.5)"}} ref={insideRef}>
-            <div id="sidetoc" style={{position:"fixed", top:"0", left:"0", width:"32rem", maxWidth:"100%", height:"100%", backgroundColor:"white"}}>
+            <div id="sidetoc" style={{position:"fixed", top:"0", left:"0", width:"28rem", maxWidth:"100%", height:"100%", backgroundColor:"white"}}>
               <div style={{marginTop:"4rem", textAlign:"right"}}>
                 <button onClick={() => onClick(false)} style={{border:"none", background:"transparent", color:"silver", opacity: "0.5"}}>
                   <i className="fa fa-close fa-3x"></i>
