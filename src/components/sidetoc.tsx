@@ -82,10 +82,10 @@ const SideToc = ({toc}) => {
                   <i className="fa fa-close fa-3x"></i>
                 </button>
               </div>
-              <h3 style={{padding: "1rem 2rem", color:"silver"}}>
-                <i className="fa fa-list-ul fa-x"></i> 目次
-              </h3>
-              <div className="tocstyle" dangerouslySetInnerHTML={{ __html: toc }} itemProp="articleBody"/>
+              <div style={{padding: "1rem 2rem"}}>
+                <h3 style={{color:"silver"}}><i className="fa fa-list-ul fa-x"></i> 目次</h3>
+                <div className="tocstyle" dangerouslySetInnerHTML={{ __html: toc }} itemProp="articleBody"/>
+              </div>
             </div>
             </div>
 
