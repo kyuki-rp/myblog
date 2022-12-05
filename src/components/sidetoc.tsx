@@ -33,6 +33,7 @@ const SideToc = ({toc}) => {
               setsidebarOpen(false)
           }
         };
+        console.log(el)
     
         //クリックイベントを設定
         document.addEventListener("click", hundleClickOutside);
