@@ -24,8 +24,8 @@ const SideToc = ({toc}) => {
         //対象の要素を取得
         const el = insideRef.current;
     
-        //対象の要素がなければ何もしない
-        if (!el) return;
+        // //対象の要素がなければ何もしない
+        // if (!el) return;
     
         //クリックした時に実行する関数
         const hundleClickOutside = (e) => {
