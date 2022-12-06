@@ -16,13 +16,13 @@ Secure Shellの略。安全にリモート接続するための仕組み。
 
 ![拡張機能のインストール](./extension.png)
 
-2. 任意のパスに.sshディレクトリを作成後、以下のコマンドを実行し、秘密鍵と公開鍵を作成する。
+2. 任意の場所に.sshディレクトリを作成後、以下のコマンドを実行し、秘密鍵と公開鍵を作成する。
 ```
 cd .ssh
 ssh-keygen -t rsa -f file_name
 ```
 
-以下のように、パスフレーズの入力が求められるので、英数字が混在した10~30文字の文字列を入力する。
+パスフレーズの入力が求められるので、英数字が混在した10~30文字の文字列を入力する。
 
 ```
 Enter passphrase (empty for no passphrase):
@@ -58,7 +58,7 @@ type id_rsa.pub
 cat id_rsa.pub
 ```
 
-以下のように、公開鍵の内容が表示されるのでクリップボードにコピーする。コピーの際はssh-rsaの部分も含める。
+公開鍵の内容が表示されるのでクリップボードにコピーする。コピーの際はssh-rsaの部分も含める。
 
 ```
 ssh-rsa ADcX...
@@ -81,3 +81,7 @@ Host <Host>
     User <UserID>
     IdentityFile C:\path\to\.ssh\id_rsa
 ```
+
+6. VSCodeでSSH接続を実施する
+
+![VSCodeでSSH接続](./remotein.png)
