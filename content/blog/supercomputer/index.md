@@ -8,9 +8,14 @@ slug: /articles/computer/supercomputer/
 
 
 # スーパーコンピュータでサンプルプログラムを動かす
-スーパーコンピュータWisteria上でPythonで書かれたサンプルプログラムを動かしてみる。
+以下の手順で、Pythonで書かれたサンプルプログラムをスーパーコンピュータ(Wisteria)上で動かす。
 
 1. workディレクトリ配下に移動して、sampleディレクトリを作成する。
+
+```
+cd /work/<プロジェクトコード>/<ユーザーID>
+mkdir sample
+```
 
 2. 以下のコマンドを実行して、Python環境作成に必要なモジュールを確認する。
 

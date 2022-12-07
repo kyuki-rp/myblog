@@ -1,7 +1,7 @@
 ---
 title: SCDV
 category: "自然言語処理"
-tags: ["SCDV"]
+tags: []
 slug: /articles/nlp/scdv/
 ---
 
