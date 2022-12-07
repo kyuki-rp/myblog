@@ -28,7 +28,7 @@ const Contact = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title={siteTitle} />
-      <meta charset="UTF-8" />
+      <meta charSet="UTF-8" />
       <h1 id="title">{siteTitle}</h1>
       <form id="form" onSubmit={(e) => handleSubmit(e)}>
         <input id="form-path" type="hidden" value={`https://web.middenii.com${location.pathname}`}></input>
