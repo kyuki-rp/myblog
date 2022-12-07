@@ -111,7 +111,7 @@ source venv/bin/activate
 python3 pytorch.py
 ```
 
-今回はジョブクラスにshare-debugを指定した。使用可能なジョブクラスについては以下のリンクを参照。  
+プロジェクトコードについては各自割り当てられたものを記入する。また、ジョブクラスには"share-debug"を指定した。使用可能なジョブクラスについては以下のリンクを参照。  
 https://www.cc.u-tokyo.ac.jp/supercomputer/wisteria/service/job.php
 
 8. 以下のコマンドを実行し、サンプルプログラムジョブを投げる。
