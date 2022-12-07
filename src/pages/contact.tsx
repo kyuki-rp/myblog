@@ -34,7 +34,7 @@ const Contact = ({ data, location }) => {
             
         <div className="form-group" style={{marginBottom:"1rem"}}>
             <label htmlFor="form-name">お名前（ニックネーム）</label><br />
-            <input id="form-name" className="form-control" type="text" placeholder="お名前" required></input>
+            <input id="form-name" className="form-control" type="text" placeholder="山田太郎" required></input>
         </div>
 
         <div className="form-group" style={{marginBottom:"1rem"}}>
