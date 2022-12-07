@@ -10,14 +10,14 @@ slug: /articles/computer/supercomputer/
 # スーパーコンピュータでサンプルプログラムを動かす
 以下の手順で、Pythonで書かれたサンプルプログラムをスーパーコンピュータ(Wisteria)上で動かす。
 
-1. workディレクトリ配下に移動して、sampleディレクトリを作成する。
+1. workディレクトリ配下に移動して、sampleディレクトリを作成する
 
 ```
 cd /work/<プロジェクトコード>/<ユーザーID>
 mkdir sample
 ```
 
-2. 以下のコマンドを実行して、Python環境作成に必要なモジュールを確認する。
+2. 以下のコマンドを実行して、Python環境作成に必要なモジュールを確認する
 
 ```
 show_module
@@ -27,7 +27,7 @@ show_module
 
 今回はgcc/8.3.1とpython/3.8.12モジュール環境を利用する。
 
-3. 以下のコマンドを実行して、Python3.8.12を利用できるようにする。
+3. 以下のコマンドを実行して、Python3.8.12を利用できるようにする
 ```
 module load gcc/8.3.1
 module load python/3.8.12
@@ -68,21 +68,21 @@ No Modulefiles Currently Loaded.
 
 出典：https://www.cc.u-tokyo.ac.jp/events/lectures/163/tut163_1st_putty.pdf
 
-5. 以下のコマンドを実行し、仮想環境を作成、起動する。
+5. 以下のコマンドを実行し、仮想環境を作成、起動する
 ```
 cd sample
 python3 -mvenv venv
 source venv/bin/activate
 ```
 
-6. 以下のコマンドを実行し、PytorchとPandasをインストールする。
+6. 以下のコマンドを実行し、PytorchとPandasをインストールする
 ```
 pip3 install --upgrade pip setuptools
 pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip3 install pandas
 ```
 
-7. sampleディレクトリ直下に、pytorch.pyとpytorch.shを作成する。
+7. sampleディレクトリ直下に、pytorch.pyとpytorch.shを作成する
 
 pytorch.py
 ```
@@ -119,7 +119,7 @@ python3 pytorch.py
 プロジェクトコードについては各自割り当てられたものを記入する。また、ジョブクラスには"share-debug"を指定した。使用可能なジョブクラスについては以下のリンクを参照。  
 https://www.cc.u-tokyo.ac.jp/supercomputer/wisteria/service/job.php
 
-8. 以下のコマンドを実行し、サンプルプログラムジョブを投げる。
+8. 以下のコマンドを実行し、サンプルプログラムジョブを投げる
 
 ```
 pjsub pytorch.sh
@@ -137,7 +137,9 @@ pjsub pytorch.sh
 
 pjsubなどのコマンドは富士通独自のもので、使用するスーパーコンピュータによって異なる。
 
-9. 出力ファイルを確認し、Inportエラーが発生しておらず、GPU(Cuda)の読み込みができていることを確認する。
+9. 出力ファイルを確認する
+
+Inportエラーが発生しておらず、GPU(Cuda)の読み込みができていることを確認する。
 
 ```
 PyTorch Success!

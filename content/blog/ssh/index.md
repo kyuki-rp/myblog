@@ -17,7 +17,7 @@ Secure Shellの略。安全にリモート接続するための仕組み。
 
 ![拡張機能のインストール](./extension.png)
 
-2. 任意の場所に.sshディレクトリを作成後、以下のコマンドを実行し、秘密鍵と公開鍵を作成する。
+2. 任意の場所に.sshディレクトリを作成後、以下のコマンドを実行し、秘密鍵と公開鍵を作成する
 ```
 cd .ssh
 ssh-keygen -t rsa -f file_name
@@ -66,7 +66,7 @@ ssh-rsa ADcX...
 
 ```
 
-4. ポータルなどにクリップボードにコピーした公開鍵の内容を貼り付けて、登録する。
+4. ポータルなどにクリップボードにコピーした公開鍵の内容を貼り付けて、登録する
 
 ![公開鍵の登録](./portal.png)
 出典：https://www.cc.u-tokyo.ac.jp/supercomputer/fx10/fx10-tebiki/chapter4.html

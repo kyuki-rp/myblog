@@ -1,7 +1,7 @@
 ---
 title: Doc2Vec
 category: "自然言語処理"
-tags: ["Doc2Vec", "dmpv", "DBOW"]
+tags: []
 slug: /articles/nlp/doc2vec/
 ---
 
@@ -13,7 +13,7 @@ dmpvはWord2VecのCBOWに似たモデル。「文章IDと前後の単語から�
 
 ![Doc2Vec-dmpv](./doc2vec-dmpv-1.png)
 
-CBOWの入力層に文章IDを追加したモデル。
+CBOWの入力層に文章IDをOne-hotベクトル化したものを追加したモデル。
 
 ![Doc2Vec-dmpv](./doc2vec-dmpv-2.png)
 

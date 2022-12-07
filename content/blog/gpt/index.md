@@ -1,7 +1,7 @@
 ---
 title: GPT
 category: "自然言語処理"
-tags: ["GPT"]
+tags: []
 slug: /articles/nlp/gpt/
 ---
 
@@ -11,7 +11,7 @@ TransformerのDecoder部分を複数重ねたモデル。
 
 ![gpt](./gpt.jpg)
 
-前の文章からターゲットの単語を予測するタスクを解く。Bertのように単語を[MASK]に置き換えるのではなく、Masked Self-Attentionにより後の単語情報がマスキングされる。
+前の文章からターゲットの単語を予測するタスクを解く。Bertのように単語を[MASK]に置き換えるのではなく、Masked Self-Attentionによりターゲット以降の単語情報がマスキングされる。
 
 Original
 ```
