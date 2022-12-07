@@ -1,6 +1,6 @@
 ---
 title: SoC
-category: "設計原則"
+category: "プログラミング"
 tags: ["SoC"]
 slug: /articles/design/soc/
 ---

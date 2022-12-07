@@ -1,6 +1,6 @@
 ---
 title: 疎結合
-category: "設計原則" 
+category: "プログラミング" 
 tags: ["疎結合"]
 slug: /articles/design/loosely-coupled/
 ---

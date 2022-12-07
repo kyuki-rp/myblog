@@ -1,6 +1,6 @@
 ---
 title: Scaling Law
-category: "自然言語処理"
+category: "AI"
 tags: ["Scaling Law"]
 slug: /articles/nlp/scaling-law/
 ---

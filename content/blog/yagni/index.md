@@ -1,6 +1,6 @@
 ---
 title: YAGNIの原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["YAGNIの原則"]
 slug: /articles/design/yagni/
 ---

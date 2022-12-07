@@ -1,6 +1,6 @@
 ---
 title: LSTM
-category: "自然言語処理"
+category: "AI"
 tags: ["LSTM", "RNN"]
 slug: /articles/nlp/lstm/
 ---

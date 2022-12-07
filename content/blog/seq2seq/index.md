@@ -1,6 +1,6 @@
 ---
 title: seq2seq
-category: "自然言語処理"
+category: "AI"
 tags: ["seq2seq"]
 slug: /articles/neural-network/seq2seq/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Transformer
-category: "自然言語処理"
+category: "AI"
 tags: ["Transformer"]
 slug: /articles/nlp/transformer/
 ---

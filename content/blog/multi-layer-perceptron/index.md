@@ -1,6 +1,6 @@
 ---
 title: 多層パーセプトロン
-category: "ニューラルネットワーク"
+category: "AI"
 tags: ["パーセプトロン"]
 slug: /articles/neural-network/multi-layer-perceptron/
 ---

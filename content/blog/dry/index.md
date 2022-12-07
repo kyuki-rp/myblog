@@ -1,6 +1,6 @@
 ---
 title: DRYの原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["DRYの原則"]
 slug: /articles/design/dry/
 ---

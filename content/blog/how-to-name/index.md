@@ -1,6 +1,6 @@
 ---
 title: 名前の付け方
-category: "HowTo"
+category: "プログラミング"
 tags: ["名前"]
 slug: /articles/how-to/name/
 ---

@@ -1,6 +1,6 @@
 ---
 title: 継承
-category: "設計原則"
+category: "プログラミング"
 tags: ["継承"]
 slug: /articles/design/inheritance/
 ---

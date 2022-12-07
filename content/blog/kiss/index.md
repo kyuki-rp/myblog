@@ -1,6 +1,6 @@
 ---
 title: KISSの原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["KISSの原則"]
 slug: /articles/design/kiss/
 ---

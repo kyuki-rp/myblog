@@ -1,6 +1,6 @@
 ---
 title: 損失関数
-category: "ニューラルネットワーク"
+category: "AI"
 tags: ["損失関数"]
 slug: /articles/neural-network/loss-function/
 ---

@@ -1,6 +1,6 @@
 ---
 title: カプセル化
-category: "設計原則"
+category: "プログラミング"
 tags: ["カプセル化"]
 slug: /articles/design/encapsulated/
 ---

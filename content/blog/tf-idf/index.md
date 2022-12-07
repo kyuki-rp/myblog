@@ -1,6 +1,6 @@
 ---
 title: TF-IDF
-category: "自然言語処理"
+category: "AI"
 tags: ["TF-IDF"]
 slug: /articles/nlp/tf-idf/
 ---

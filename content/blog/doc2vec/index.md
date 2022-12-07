@@ -1,6 +1,6 @@
 ---
 title: Doc2Vec
-category: "自然言語処理"
+category: "AI"
 tags: []
 slug: /articles/nlp/doc2vec/
 ---

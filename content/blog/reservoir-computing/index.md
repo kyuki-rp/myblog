@@ -1,6 +1,6 @@
 ---
 title: リザーバコンピューティング
-category: "ニューラルネットワーク"
+category: "AI"
 tags: ["リザーバコンピューティング"]
 slug: /articles/neural-network/reservoir-computing/
 ---

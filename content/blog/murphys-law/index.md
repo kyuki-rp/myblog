@@ -1,6 +1,6 @@
 ---
 title: マーフィーの法則
-category: "設計原則"
+category: "プログラミング"
 tags: ["マーフィーの法則"]
 slug: /articles/neural-network/murphys-law/
 ---

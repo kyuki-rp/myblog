@@ -1,6 +1,6 @@
 ---
 title: リカレントニューラルネットワーク
-category: "ニューラルネットワーク"
+category: "AI"
 tags: ["RNN"]
 slug: /articles/neural-network/rnn/
 ---

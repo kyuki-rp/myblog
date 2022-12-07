@@ -1,6 +1,6 @@
 ---
 title: ニューラルネットワーク
-category: "ニューラルネットワーク"
+category: "AI"
 tags: ["FFNN", "RNN"]
 slug: /articles/neural-network/neural-network/
 ---

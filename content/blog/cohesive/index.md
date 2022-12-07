@@ -1,6 +1,6 @@
 ---
 title: 凝集性
-category: "設計原則"
+category: "プログラミング"
 tags: ["凝集性"]
 slug: /articles/design/cohesive/
 ---

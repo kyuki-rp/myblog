@@ -1,6 +1,6 @@
 ---
 title: オープン/クロースドの原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["オープン/クロースドの原則"]
 slug: /articles/design/open-closed-principle/
 ---

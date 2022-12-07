@@ -1,6 +1,6 @@
 ---
 title: クラス図
-category: "UML"
+category: "プログラミング"
 tags: ["クラス図"]
 slug: /articles/uml/class-diagram/
 ---

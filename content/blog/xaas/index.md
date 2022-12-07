@@ -1,7 +1,7 @@
 ---
 title: XaaS
-category: "エンジニアリング"
-tags: ["エンジニアリング"]
+category: "コンピュータ"
+tags: ["IaaS", "Paas", "BaaS", "SaaS"]
 slug: /articles/engineering/xaas/
 ---
 

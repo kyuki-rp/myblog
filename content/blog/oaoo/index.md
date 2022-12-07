@@ -1,6 +1,6 @@
 ---
 title: OAOOの原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["OAOOの原則"]
 slug: /articles/design/oaoo/
 ---

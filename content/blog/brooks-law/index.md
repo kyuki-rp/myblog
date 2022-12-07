@@ -1,6 +1,6 @@
 ---
 title: ブルックスの法則
-category: "設計原則"
+category: "プログラミング"
 tags: ["ブルックスの法則"]
 slug: /articles/neural-network/brooks-law/
 ---

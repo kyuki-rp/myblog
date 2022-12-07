@@ -1,6 +1,6 @@
 ---
 title: BERT
-category: "自然言語処理"
+category: "AI"
 tags: ["BERT"]
 slug: /articles/nlp/bert/
 ---

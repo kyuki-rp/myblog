@@ -1,6 +1,6 @@
 ---
 title: 単一責務の原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["単一責務の原則"]
 slug: /articles/design/single-responsibility-principle/
 ---

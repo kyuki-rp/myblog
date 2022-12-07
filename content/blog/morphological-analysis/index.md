@@ -1,6 +1,6 @@
 ---
 title: 形態素解析
-category: "自然言語処理"
+category: "AI"
 tags: ["形態素解析"]
 slug: /articles/nlp/morphological-analysis/
 ---

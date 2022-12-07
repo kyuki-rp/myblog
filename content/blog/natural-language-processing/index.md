@@ -1,7 +1,7 @@
 ---
 title: 自然言語処理
-category: "自然言語処理"
-tags: ["自然言語処理"]
+category: "AI"
+tags: ["AI"]
 slug: /articles/nlp/natural-language-processing/
 ---
 

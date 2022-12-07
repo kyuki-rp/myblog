@@ -1,6 +1,6 @@
 ---
 title: 依存性逆転の原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["依存性逆転の原則"]
 slug: /articles/design/dependency-inversion-principle/
 ---

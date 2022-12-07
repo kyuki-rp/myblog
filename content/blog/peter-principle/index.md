@@ -1,6 +1,6 @@
 ---
 title: ピーターの法則
-category: "設計原則"
+category: "プログラミング"
 tags: ["ピーターの法則"]
 slug: /articles/neural-network/peter-principle/
 ---

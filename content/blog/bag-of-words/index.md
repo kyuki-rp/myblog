@@ -1,6 +1,6 @@
 ---
 title: Bag-of-Words
-category: "自然言語処理"
+category: "AI"
 tags: ["Bag-of-Words"]
 slug: /articles/nlp/bag-of-words/
 ---

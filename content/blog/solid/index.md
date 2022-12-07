@@ -1,6 +1,6 @@
 ---
 title: SOLIDの原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["SOLIDの原則"]
 slug: /articles/design/solid/
 ---

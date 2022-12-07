@@ -1,6 +1,6 @@
 ---
 title: ストップワード
-category: "自然言語処理"
+category: "AI"
 tags: ["ストップワード"]
 slug: /articles/nlp/stop-words/
 ---

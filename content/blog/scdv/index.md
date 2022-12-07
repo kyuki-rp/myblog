@@ -1,6 +1,6 @@
 ---
 title: SCDV
-category: "自然言語処理"
+category: "AI"
 tags: []
 slug: /articles/nlp/scdv/
 ---

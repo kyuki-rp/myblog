@@ -1,6 +1,6 @@
 ---
 title: Word2Vec
-category: "自然言語処理"
+category: "AI"
 tags: ["Word2Vec", "CBOW", "skip-gram"]
 slug: /articles/nlp/word2vec/
 ---

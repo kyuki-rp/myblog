@@ -1,6 +1,6 @@
 ---
 title: リスコフの置換原則
-category: "設計原則"
+category: "プログラミング"
 tags: ["リスコフの置換原則"]
 slug: /articles/design/liskov-substitution-principle/
 ---

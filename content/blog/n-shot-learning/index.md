@@ -1,6 +1,6 @@
 ---
 title: N-Shot学習
-category: "自然言語処理"
+category: "AI"
 tags: ["n-shot学習"]
 slug: /articles/neural-network/n-shot-learning/
 ---

@@ -46,6 +46,10 @@ const Works = ({ data, location }) => {
       
       <h2 style={{paddingTop:"3em"}}>最新記事</h2>
       <News />
+      <div style={{textAlign:"right"}}>
+        <Link to="/articles/" >{"記事一覧 >"}</Link>
+      </div>
+
 
     </Layout>
   )

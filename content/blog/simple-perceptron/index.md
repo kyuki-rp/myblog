@@ -1,6 +1,6 @@
 ---
 title: 単純パーセプトロン
-category: "ニューラルネットワーク"
+category: "AI"
 tags: ["パーセプトロン"]
 slug: /articles/neural-network/simple-perceptron/
 ---

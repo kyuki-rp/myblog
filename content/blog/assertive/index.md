@@ -1,6 +1,6 @@
 ---
 title: 断定的
-category: "設計原則"
+category: "プログラミング"
 tags: ["断定的"]
 slug: /articles/design/assertive/
 ---

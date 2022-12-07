@@ -1,6 +1,6 @@
 ---
 title: ステミング
-category: "自然言語処理"
+category: "AI"
 tags: ["ステミング"]
 slug: /articles/nlp/stemming/
 ---

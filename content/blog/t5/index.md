@@ -1,6 +1,6 @@
 ---
 title: T5
-category: "自然言語処理"
+category: "AI"
 tags: ["T5"]
 slug: /articles/nlp/t5/
 ---

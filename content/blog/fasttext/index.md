@@ -1,6 +1,6 @@
 ---
 title: fastText
-category: "自然言語処理"
+category: "AI"
 tags: ["fastText"]
 slug: /articles/nlp/fasttext/
 ---

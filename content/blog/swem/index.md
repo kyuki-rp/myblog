@@ -1,6 +1,6 @@
 ---
 title: SWEM
-category: "自然言語処理"
+category: "AI"
 tags: ["SWEM"]
 slug: /articles/nlp/swem/
 ---

@@ -1,6 +1,6 @@
 ---
 title: シーケンス図
-category: "UML"
+category: "プログラミング"
 tags: ["シーケンス図"]
 slug: /articles/uml/sequence-diagram/
 ---

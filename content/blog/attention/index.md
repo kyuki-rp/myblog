@@ -1,6 +1,6 @@
 ---
 title: Attention
-category: "自然言語処理"
+category: "AI"
 tags: ["Attention"]
 slug: /articles/nlp/attention/
 ---
