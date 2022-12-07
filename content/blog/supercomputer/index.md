@@ -102,7 +102,7 @@ pytorch.sh
 #PJM -L rscgrp=share-debug
 #PJM -L gpu=1
 #PJM -L elapse=0:10:00
-#PJM -g gc20
+#PJM -g <プロジェクトコード>
 #PJM -j
 
 module load gcc/8.3.1
