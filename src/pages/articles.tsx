@@ -33,11 +33,11 @@ const Articles = ({ data, location }) => {
       <Tabs
         activeKey={tabKey}
         onSelect={(k) => onChangeTab(k)}
-        style={{fontWeight:"bold", backgroundColor:"whitesmoke", opacity: "0.8", padding:"8px 0 0 0", marginBottom:"5px", borderRadius:"7px"}}>
+        style={{fontWeight:"bold", backgroundColor:"whitesmoke", opacity: "0.8", paddingTop:"8px", marginBottom:"5px", borderRadius:"7px"}}>
         <Tab eventKey="すべての記事" title="すべての記事">
           {posts.map(post => {
             return (
-              <div className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px", width:"100%", textAlign:"left"}}>
+              <div className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px 0", width:"100%", textAlign:"left"}}>
                 <PostCard post={post}/>
               </div>
             )
