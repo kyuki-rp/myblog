@@ -18,12 +18,11 @@ const Articles = ({ data, location }) => {
     setTabKey(k);
   }
 
-  let resultList = []
-  {posts.map(post => {
-    resultList.push(post.frontmatter.category)
-  })}
-
+  const resultList: string[] = posts.map(post => {
+    return post.frontmatter.category
+  })
   const categories = Array.from(new Set(resultList))
+  
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -37,7 +36,7 @@ const Articles = ({ data, location }) => {
         <Tab eventKey="すべての記事" title="すべての記事">
           {posts.map(post => {
             return (
-              <div className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px 0", width:"100%", textAlign:"left"}}>
+              <div key={post.frontmatter.title} className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px 0", width:"100%", textAlign:"left"}}>
                 <PostCard post={post}/>
               </div>
             )
@@ -46,11 +45,11 @@ const Articles = ({ data, location }) => {
 
         {categories.map(category => {
           return (
-            <Tab eventKey={category} title={category} style={{margin:"0"}}>
+            <Tab key={category} eventKey={category} title={category} style={{margin:"0"}}>
               {posts.map(post => {
                 if (post.frontmatter.category==category) {
                   return (
-                    <div className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px", width:"100%", textAlign:"left"}}>
+                    <div key={post.frontmatter.title} className="btn btn-light" style={{padding:"10px 0 10px 0", margin:"5px", width:"100%", textAlign:"left"}}>
                       <PostCard post={post}/>
                     </div>
                   )
