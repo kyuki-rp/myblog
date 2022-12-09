@@ -3,12 +3,10 @@
     border-radius: 15px;
 }
 
-  /*検索結果全体背景*/
+/*検索結果全体背景*/
 .gsc-control-cse, .gsc-control-cse-ja{
     max-width: 250px;
     margin-left: auto;
-    background-color: transparent !important;
-    border: none !important;
     padding: 0 !important;
 }
 
