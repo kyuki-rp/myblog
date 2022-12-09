@@ -6,7 +6,8 @@ import {useState, useEffect} from 'react';
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import PostCard from "../components/postcard"
-
+import Search from '../components/search'
+import ClientOnly from '../components/clientonly'
 
 const Articles = ({ data, location }) => {
   const siteTitle = "記事一覧"
@@ -29,6 +30,9 @@ const Articles = ({ data, location }) => {
       <Seo title={siteTitle} />
 
       <h1 id="title">{siteTitle}</h1>
+      <ClientOnly style={{padding: "1rem 1rem 0 0"}}>
+          <Search />
+      </ClientOnly>
       <Tabs
         activeKey={tabKey}
         onSelect={(k) => onChangeTab(k)}

@@ -2,7 +2,7 @@
 title: VSCodeでリモート環境にSSH接続する
 date: "2022-12-06"
 category: "コンピュータ"
-tags: []
+tags: ["SSH", "VSCode"]
 slug: /articles/computer/ssh/
 ---
 
