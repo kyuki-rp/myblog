@@ -8,11 +8,9 @@ export const Search = () => {
   gcse.async = true;
   gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
   let s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(gcse, s);  
+  s.parentNode?.insertBefore(gcse, s);  
   return (
-    <>
-      <div class="gcse-search"></div>
-    </>
+    <div className="gcse-search"></div>
   )
 }
 
