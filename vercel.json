@@ -5,20 +5,8 @@
         "destination": "/policy/"
       },
       {
-        "source": "/history/",
-        "destination": "/"
-      },
-      {
         "source": "/portfolios/",
         "destination": "/works/"
-      },
-      {
-        "source": "/portfolios/",
-        "destination": "/works/"
-      },
-      {
-        "source": "/feedback/",
-        "destination": "/contact/"
       }
     ]
   }
