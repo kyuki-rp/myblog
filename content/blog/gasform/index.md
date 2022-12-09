@@ -18,7 +18,7 @@ slug: /articles/gasform/
 以下のコードを記載する。その際、<スプレッドシートID>、<シート名>、<通知先のメールアドレス>は各自書き換える。
 
 GASスクリプト
-```
+```js
 function obj2txtout(obj){
   let output = ContentService.createTextOutput();
   output.setMimeType(ContentService.MimeType.JSON);
@@ -59,7 +59,7 @@ function doPost(e){
 以下のコードを記載する。<ウェブアプリのURL>は各自書き換える。
 
 src/pages/contact-form.js
-```
+```js
 import * as React from "react"
 import { useState } from 'react'
 
