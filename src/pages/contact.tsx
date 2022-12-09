@@ -1,10 +1,9 @@
 import * as React from "react"
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import { navigate } from "gatsby"
 import { CallGAS } from "../components/callgas"
 
 

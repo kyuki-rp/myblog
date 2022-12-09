@@ -11,7 +11,7 @@ slug: /articles/computer/ssh/
 Secure Shellの略。安全にリモート接続するための仕組み。
 
 # VSCodeでリモート環境にSSH接続する
-以下の手順で、VSCodeからリモート環境にSSH接続する。
+以下の手順に従って、VSCodeからリモート環境にSSH接続する。
 
 1. VSCodeの拡張機能"Remote-SSH"をインストールする
 
