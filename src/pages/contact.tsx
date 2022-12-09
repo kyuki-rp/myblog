@@ -17,10 +17,10 @@ const Contact = ({ data, location }) => {
     setSendAble(false)
     setSendText("送信中...")
     e.preventDefault();
-    const pathDoc = document.getElementById("form-path") as HTMLInputElement
-    const nameDoc = document.getElementById("form-name") as HTMLInputElement
-    const emailDoc = document.getElementById("form-email") as HTMLInputElement
-    const commentDoc = document.getElementById("form-comment") as HTMLInputElement
+    const pathDoc = document.getElementById("form-path") as HTMLInputElement;
+    const nameDoc = document.getElementById("form-name") as HTMLInputElement;
+    const emailDoc = document.getElementById("form-email") as HTMLInputElement;
+    const commentDoc = document.getElementById("form-comment") as HTMLInputElement;
     CallGAS(pathDoc.value, nameDoc.value, emailDoc.value, commentDoc.value)
   }
 

@@ -5,8 +5,6 @@
 
 /*検索結果全体背景*/
 .gsc-control-cse, .gsc-control-cse-ja{
-    max-width: 250px;
-    margin-left: auto;
     padding: 0 !important;
 }
 
