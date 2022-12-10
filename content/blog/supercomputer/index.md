@@ -3,12 +3,12 @@ title: スーパーコンピュータでPythonサンプルプログラムを動�
 date: "2022-12-07"
 category: "コンピュータ"
 tags: []
-slug: /articles/computer/supercomputer/
+slug: /articles/supercomputer/
 ---
 
 
 # スーパーコンピュータでサンプルプログラムを動かす
-以下の手順で、Pythonで書かれたサンプルプログラムをスーパーコンピュータ(Wisteria)上で動かす。
+以下の手順に従って、Pythonで書かれたサンプルプログラムをスーパーコンピュータ(Wisteria)上で動かす。
 
 1. workディレクトリ配下に移動して、sampleディレクトリを作成する
 
