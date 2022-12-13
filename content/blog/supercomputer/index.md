@@ -75,7 +75,7 @@ python3 -mvenv venv
 source venv/bin/activate
 ```
 
-6. 以下のコマンドを実行し、PytorchとPandasをインストールする
+6. 以下のコマンドを実行し、PyTorchとPandasをインストールする
 ```
 pip3 install --upgrade pip setuptools
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
