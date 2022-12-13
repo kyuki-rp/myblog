@@ -2,7 +2,7 @@
 title: クラス図
 category: "プログラミング"
 tags: ["クラス図"]
-slug: /articles/uml/class-diagram/
+slug: /articles/class-diagram/
 ---
 
 
