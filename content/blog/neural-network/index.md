@@ -25,7 +25,7 @@ z = act(Wx + b)
 
 上記の関係式を改めて z = f(x) と置くと、FFNNは次のように表現できる。 
 <div style="text-align: center;">
-  $f_n(f_n-1(...f_2(f_1(x))))$
+  $\centerline{f_n(f_n-1(...f_2(f_1(x))))}$
 </div>
 
 このように、層の増加に伴ってモデルの表現力が向上するため、高精度の予測が可能になる。
