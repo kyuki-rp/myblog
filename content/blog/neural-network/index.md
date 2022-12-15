@@ -21,7 +21,7 @@ slug: /articles/neural-network/neural-network/
 FFNNは多層パーセプトロンを一般化したもので、各層での計算は次のように表現できる。
 
 $$
-z = act(W_x + b)
+z = act(Wx + b)
 $$
 
 ただし、zは出力ベクトル、xは入力ベクトル、、Wは重み行列、bはバイアスベクトル、actは活性化関数である。
