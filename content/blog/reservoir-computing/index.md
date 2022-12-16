@@ -1,6 +1,6 @@
 ---
 title: リザーバコンピューティング
-date: "2022-12-07"
+date: "2021-11-12"
 category: "AI"
 tags: ["リザーバコンピューティング"]
 slug: /articles/reservoir-computing/
