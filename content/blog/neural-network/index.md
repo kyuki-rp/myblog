@@ -1,8 +1,9 @@
 ---
 title: ニューラルネットワーク
+date: "2021-11-12"
 category: "AI"
-tags: ["FFNN", "RNN"]
-slug: /articles/neural-network/neural-network/
+tags: ["ニューラルネットワーク", "FFNN", "RNN"]
+slug: /articles/neural-network/
 ---
 
 

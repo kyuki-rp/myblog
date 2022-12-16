@@ -1,5 +1,6 @@
 ---
 title: パーセプトロン
+date: "2021-11-12"
 category: "AI"
 tags: ["パーセプトロン"]
 slug: /articles/perceptron/
