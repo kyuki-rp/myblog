@@ -1,18 +1,34 @@
 ---
 title: Clean Code
 category: "プログラミング"
-tags: ["Clean"]
+tags: ["Clean", "凝集性", "疎結合", "カプセル化", "断定的", "非冗長"]
 slug: /articles/design/clean-code/
 ---
 
 
 # Clean Codeとは
-5つのコード品質評価尺度の頭文字をとったもの。多面的な観点からコードを評価することでコード品質が向上する。
+以下に示す5つのコード品質評価尺度の頭文字をとったもの。多面的な観点からコードを評価することでコード品質が向上する。
 
-+ [Cohesive(凝集性)](https://web.middenii.com/articles/design/cohesive/)
-+ [Loosely Coupled(疎結合)](https://web.middenii.com/articles/design/loosely-coupled/)
-+ [Encapsulated(カプセル化)](https://web.middenii.com/articles/design/encapsulated/)
-+ [Assertive(断定的)](https://web.middenii.com/articles/design/assertive/)
-+ [Nonredundant(非冗長)](https://web.middenii.com/articles/programming/nonredundant/)
++ 凝集性(Cohesive)
++ 疎結合(Loosely Coupled)
++ カプセル化(Encapsulated)
++ 断定的(Assertive)
++ 非冗長(Nonredundant)
 
+# 凝集性
+一般的に、凝集性は集合体の統合性の強さを示す概念。
+プログラミングにおける凝集性は、モジュール（ライブラリ、クラス、メソッド）内の意味的なまとまりの強さを表す。
 
+凝集度が高いコードは、どのクラスがどの役割（責任）を担っているのかが明確で可読性が高まる。また、ある箇所の変更が他の箇所に影響しにくいため、堅牢性や保守性が高まる。
+
+# 疎結合
+モジュール（ライブラリ、クラス、メソッド）間の依存関係が弱いことを指す。コードを疎結合にしておくことで、保守性が高まると同時に再利用が容易になる。
+
+# カプセル化
+パルナスの規則に基づいて、インターフェースと実装を切り離し、実装を隠蔽してインターフェースのみを公開すること。適切にカプセル化することで、内部の情報や手続きを気にする必要がなくなるため、コードの利用や拡張が容易になる。
+
+# 断定的
+各オブジェクトが独立していて、自分自身の状態に責任を持ち、自分自身で管理している状態。断定的なコードは自然と凝集性が高まる。
+
+# 非冗長
+冗長性とは意図の繰り返すこと。同一のコードでなくても、同一の意図の処理を繰り返しているコードは冗長なコードといえる。冗長な部分は括りだしてまとめることで、保守性が高まる。

@@ -11,6 +11,18 @@
       {
         "source": "/articles/uml/class-diagram/",
         "destination": "/articles/class-diagram/"
+      },
+      {
+        "source": "/articles/programming/delegation/",
+        "destination": "/articles/inheritance/"
+      },
+      {
+        "source": "/articles/engineering/xaas/",
+        "destination": "/articles/xaas/"
+      },
+      {
+        "source": "/articles/design/solid/",
+        "destination": "/articles/solid/"
       }
     ]
   }

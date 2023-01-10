@@ -3,7 +3,7 @@ title: XaaS
 date: "2021-11-18"
 category: "コンピュータ"
 tags: ["IaaS", "Paas", "BaaS", "SaaS"]
-slug: /articles/engineering/xaas/
+slug: /articles/xaas/
 ---
 
 # XaaSとは
