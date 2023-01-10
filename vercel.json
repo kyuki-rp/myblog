@@ -23,6 +23,10 @@
       {
         "source": "/articles/design/solid/",
         "destination": "/articles/solid/"
+      },
+      {
+        "source": " /articles/design/clean-code/",
+        "destination": "/articles/clean-code/"
       }
     ]
   }
