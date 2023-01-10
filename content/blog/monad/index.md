@@ -3,7 +3,7 @@ title: モナド
 date: "2022-06-21"
 category: "数学"
 tags: ["圏論", "モナド"]
-slug: /articles/math/monad/
+slug: /articles/monad/
 ---
 
 

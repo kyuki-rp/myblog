@@ -25,8 +25,20 @@
         "destination": "/articles/solid/"
       },
       {
-        "source": " /articles/design/clean-code/",
+        "source": "/articles/design/clean-code/",
         "destination": "/articles/clean-code/"
+      },
+      {
+        "source": "/articles/math/group-theory/",
+        "destination": "/articles/group-theory/"
+      },
+      {
+        "source": "/articles/math/category-theory/",
+        "destination": "/articles/category-theory/"
+      },
+      {
+        "source": "/articles/math/monad/",
+        "destination": "/articles/monad/"
       }
     ]
   }
