@@ -1,5 +1,6 @@
 ---
 title: 圏論
+date: "2022-06-21"
 category: "数学"
 tags: ["圏論"]
 slug: /articles/math/category-theory/

@@ -1,5 +1,6 @@
 ---
 title: 群・環・体
+date: "2022-06-21"
 category: "数学"
 tags: ["群論"]
 slug: /articles/math/group-theory/
