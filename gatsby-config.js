@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `middenii`,
     author: {
-      name: `arun`,
+      name: `natori`,
       summary: `2018/04からITエンジニアとして活動、2021/11から独立。\n主な使用言語はPython, SAS, JavaScript。`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
