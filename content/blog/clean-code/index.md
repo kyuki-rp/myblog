@@ -1,5 +1,6 @@
 ---
 title: Clean Code
+date: "2022-03-02"
 category: "プログラミング"
 tags: ["Clean", "凝集性", "疎結合", "カプセル化", "断定的", "非冗長"]
 slug: /articles/design/clean-code/
