@@ -39,6 +39,10 @@
       {
         "source": "/articles/math/monad/",
         "destination": "/articles/monad/"
+      },
+      {
+        "source": "/articles/programming/programming-paradigm/",
+        "destination": "/articles/programming-paradigm/"
       }
     ]
   }

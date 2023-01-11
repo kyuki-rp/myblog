@@ -63,7 +63,7 @@ const Profile = ({ data, location }) => {
 
       <h2 style={{paddingTop:"1em"}}>勉強中</h2>
       <ul>
-        <li>関数型プログラミング</li>
+        <li>量子コンピュータ</li>
         <li>ブロックチェーンエンジニアリング</li>
       </ul>
 
