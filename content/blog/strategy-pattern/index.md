@@ -3,7 +3,7 @@ title: Strategyパターン
 date: "2022-11-11"
 category: "プログラミング"
 tags: ["Strategyパターン"]
-slug: /articles/programming/strategy-pattern/
+slug: /articles/strategy-pattern/
 ---
 
 

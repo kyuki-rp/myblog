@@ -3,7 +3,7 @@ title: シーケンス図
 date: "2022-01-10"
 category: "プログラミング"
 tags: ["シーケンス図"]
-slug: /articles/uml/sequence-diagram/
+slug: /articles/sequence-diagram/
 ---
 
 

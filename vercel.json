@@ -79,6 +79,18 @@
       {
         "source": "/articles/programming/legacy-code/",
         "destination": "/articles/legacy-code/"
+      },
+      {
+        "source": "/articles/uml/sequence-diagram/",
+        "destination": "/articles/sequence-diagram/"
+      },
+      {
+        "source": "/articles/programming/strategy-pattern/",
+        "destination": "/articles/strategy-pattern/"
+      },
+      {
+        "source": "/articles/programming/tdd/",
+        "destination": "/articles/tdd/"
       }
     ]
   }
