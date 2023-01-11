@@ -114,5 +114,6 @@ slug: /articles/legacy-code-book/
 
 再設計によりテストが増えていくと、より複雑なリファクタリングが可能になる。
 
-# 参考文献
+
+# 参考資料
 ・レガシーコードからの脱却, David Scott Bernstein

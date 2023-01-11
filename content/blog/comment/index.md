@@ -178,6 +178,6 @@ def sort(list):
     return result
 ```
 
-# 参考文献
-- Clean Code　著：Robert C.Martin　訳：花井志生
-- リーダブルコード　著：Dustin Boswell, Trevor Foucher　訳：角征典
+# 参考資料
+- Clean Code, Robert C.Martin
+- リーダブルコード, Dustin Boswell, Trevor Foucher
