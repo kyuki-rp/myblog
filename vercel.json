@@ -39,6 +39,18 @@
       {
         "source": "/articles/programming/programming-paradigm/",
         "destination": "/articles/programming-paradigm/"
+      },
+      {
+        "source": "/articles/programming/namespace/",
+        "destination": "/articles/namespace/"
+      },
+      {
+        "source": "/articles/how-to/name/",
+        "destination": "/articles/name/"
+      },
+      {
+        "source": "/articles/how-to/comment/",
+        "destination": "/articles/comment/"
       }
     ]
   }

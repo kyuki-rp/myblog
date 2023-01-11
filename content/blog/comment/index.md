@@ -3,7 +3,7 @@ title: コメントの書き方
 date: "2022-11-09"
 category: "プログラミング"
 tags: ["コメント"]
-slug: /articles/how-to/comment/
+slug: /articles/comment/
 ---
 
 

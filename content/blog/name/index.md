@@ -1,8 +1,9 @@
 ---
 title: 名前の付け方
+date: "2022-11-08"
 category: "プログラミング"
 tags: ["名前"]
-slug: /articles/how-to/name/
+slug: /articles/name/
 ---
 
 
