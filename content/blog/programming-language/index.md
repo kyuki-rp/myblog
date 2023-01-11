@@ -1,8 +1,9 @@
 ---
 title: プログラミング言語
+date: "2022-02-27"
 category: "プログラミング"
 tags: ["プログラミング言語"]
-slug: /articles/programming/machine-language/
+slug: /articles/programming/programming-language/
 ---
 
 

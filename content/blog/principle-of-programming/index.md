@@ -1,5 +1,6 @@
 ---
 title: プログラミングに関する原理原則
+date: "2023-01-11"
 category: "プログラミング"
 tags: ["YAGNIの原則"]
 slug: /articles/principle-of-programming/
