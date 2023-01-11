@@ -88,4 +88,4 @@ Single Level of Abstraction Principle.の略。コードは複雑さに応じて
 
 
 # 参考資料
-プリンシプル オブ プログラミング, 上田勲
++ プリンシプル オブ プログラミング, 上田勲
