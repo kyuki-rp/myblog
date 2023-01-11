@@ -1,6 +1,6 @@
 ---
 title: TDD
-date: "2023-01-07"
+date: "2022-01-27"
 category: "プログラミング"
 tags: ["TDD"]
 slug: /articles/tdd/
