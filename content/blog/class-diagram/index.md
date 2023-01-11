@@ -1,5 +1,6 @@
 ---
 title: クラス図
+date: "2022-01-09"
 category: "プログラミング"
 tags: ["クラス図"]
 slug: /articles/class-diagram/

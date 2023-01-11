@@ -1,8 +1,9 @@
 ---
 title: レガシーコード
+date: "2011-12-02"
 category: "プログラミング"
 tags: ["レガシーコード"]
-slug: /articles/programming/legacy-code/
+slug: /articles/legacy-code/
 ---
 
 

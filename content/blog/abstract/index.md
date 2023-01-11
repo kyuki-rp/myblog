@@ -3,7 +3,7 @@ title: 抽象化
 date: "2022-11-07"
 category: "プログラミング"
 tags: ["抽象化"]
-slug: /articles/programming/abstract/
+slug: /articles/abstract/
 ---
 
 # 抽象化とは

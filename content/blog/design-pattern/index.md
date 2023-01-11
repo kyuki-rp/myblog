@@ -1,8 +1,9 @@
 ---
 title: デザインパターン
+date: "2022-01-12"
 category: "プログラミング"
 tags: ["デザインパターン"]
-slug: /articles/programming/design-pattern/
+slug: /articles/design-pattern/
 ---
 
 

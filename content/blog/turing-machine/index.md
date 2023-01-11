@@ -3,7 +3,7 @@ title: チューリングマシン
 date: "2022-02-23"
 category: "プログラミング"
 tags: ["チューリングマシン"]
-slug: /articles/programming/turing-machine/
+slug: /articles/turing-machine/
 ---
 
 

@@ -51,6 +51,34 @@
       {
         "source": "/articles/how-to/comment/",
         "destination": "/articles/comment/"
+      },
+      {
+        "source": "/articles/programming/turing-machine/",
+        "destination": "/articles/turing-machine/"
+      },
+      {
+        "source": "/articles/programming/programming-language/",
+        "destination": "/articles/programming-language/"
+      },
+      {
+        "source": "/articles/programming/abstract/",
+        "destination": "/articles/abstract/"
+      },
+      {
+        "source": "/articles/programming/design-pattern/",
+        "destination": "/articles/design-pattern/"
+      },
+      {
+        "source": "/articles/programming/exception/",
+        "destination": "/articles/exception/"
+      },
+      {
+        "source": "/articles/summary/legacy-code-book/",
+        "destination": "/articles/legacy-code-book/"
+      },
+      {
+        "source": "/articles/programming/legacy-code/",
+        "destination": "/articles/legacy-code/"
       }
     ]
   }

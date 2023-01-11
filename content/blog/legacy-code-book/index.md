@@ -1,8 +1,9 @@
 ---
 title: 【要約】レガシーコードからの脱却
+date: "2011-12-02"
 category: "プログラミング"
 tags: ["要約", "レガシーコード"]
-slug: /articles/summary/legacy-code-book/
+slug: /articles/legacy-code-book/
 ---
 
 

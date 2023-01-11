@@ -1,8 +1,9 @@
 ---
 title: 例外処理
+date: "2022-02-01"
 category: "プログラミング"
 tags: ["例外処理"]
-slug: /articles/programming/exception/
+slug: /articles/exception/
 ---
 
 
