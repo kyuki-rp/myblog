@@ -91,6 +91,10 @@
       {
         "source": "/articles/programming/tdd/",
         "destination": "/articles/tdd/"
+      },
+      {
+        "source": "/articles/design/dependency-inversion-principle/",
+        "destination": "/articles/solid/"
       }
     ]
   }
