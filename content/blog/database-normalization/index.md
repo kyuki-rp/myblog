@@ -2,7 +2,7 @@
 title: データベースの正規化
 date: "2022-08-31"
 category: "データ"
-tags: []
+tags: ["第一正規化", "第二正規化", "第三正規化", "ボイスコッド正規化" ,"第四正規化", "第五正規化"]
 slug: /articles/database-normalization/
 ---
 
@@ -225,3 +225,7 @@ slug: /articles/database-normalization/
 |t001|P1|
 |t002|P1|
 |t002|P2|
+
+
+# 参考資料
+- 達人に学ぶDB設計徹底指南書, ミック
