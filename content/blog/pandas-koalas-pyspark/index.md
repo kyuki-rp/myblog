@@ -25,13 +25,11 @@ sparkバージョン：2.4.4.2.6.99.201-25973884
 # df操作方法の比較
 ## dfの作成と表示
 
-<span style="overflow-x: scroll;">
 | | Pandas | Koalas | PySpark |
 | :---: | :---: | :---: | :---: |
 | df作成 | pdf = pd.DataFrame(array) | kdf = ks.DataFrame(array) | sdf = spark.createDataFrame(array) |
 | 表示① | pdf.head() | kdf.head() | sdf.show() |
 | 表示② | pdf.tail() | － | － |
-</span>
 
 Koalasのtail()メソッドを使用しようとすると以下のメッセージがでる。
 
