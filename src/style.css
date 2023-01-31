@@ -259,6 +259,10 @@ table tbody tr td {
   border: 1px solid var(--color-accent);
 }
 
+table tbody tr:nth-child(even) {
+  background: #eee;
+}
+
 
 /* Link */
 
