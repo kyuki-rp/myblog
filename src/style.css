@@ -263,13 +263,7 @@ article table {
 article table thead tr th {
   border: 1px solid var(--color-accent);
   text-align: center;
-  background: #eee;
-  border-top: 1px solid var(--color-text-light);
-  border-bottom: 1px solid var(--color-text-light);
-}
-
-article table tbody tr:last-child {
-  border-bottom: 1px solid var(--color-text-light);
+  background: #666;
 }
 
 article table tbody tr td {
