@@ -258,7 +258,6 @@ article table {
   border-collapse: collapse;
   border-spacing: 0.25rem;
   border: 1px solid var(--color-accent);
-  border-bottom: 1px solid var(--color-text-light);
 }
 
 article table thead tr th {
@@ -271,11 +270,16 @@ article table thead tr th {
 article table tbody tr td {
   padding: .5em 2em;
   border: 1px solid var(--color-accent);
+  border-top: 1px solid var(--color-text-light);
   border-bottom: 1px solid var(--color-text-light);
 }
 
 article table tbody tr:nth-child(even) {
   background: #eee;
+}
+
+article table tbody tr:last-child {
+  border-bottom: 1px solid var(--color-text-light);
 }
 
 /* Link */
