@@ -60,7 +60,7 @@ module.exports = {
             options: {
               blocks: {
                 info: { // Markdown 内のキーワード
-                  classes: "md-table", // 適用クラス
+                  classes: "table", // 適用クラス
                   title: "optional",
                 },
               },
