@@ -278,6 +278,7 @@ article table tbody tr:nth-child(even) {
 }
 
 article table tbody tr:last-child {
+  background:#b2ffd8;
   border-bottom: 1px solid var(--color-text-light);
 }
 
