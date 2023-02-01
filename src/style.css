@@ -264,6 +264,7 @@ article table thead tr th {
   border: 1px solid var(--color-accent);
   text-align: center;
   background: #666;
+  color: white;
 }
 
 article table tbody tr td {
