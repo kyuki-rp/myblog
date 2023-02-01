@@ -258,6 +258,7 @@ article table {
   border-collapse: collapse;
   border-spacing: 0.25rem;
   border: 1px solid var(--color-accent);
+  border-bottom: 1px solid var(--color-text-light);
 }
 
 article table thead tr th {
