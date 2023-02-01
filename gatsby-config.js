@@ -55,6 +55,17 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `gatsby-remark-custom-blocks`,
+            options: {
+              blocks: {
+                info: { // Markdown 内のキーワード
+                  classes: "md-table", // 適用クラス
+                  title: "optional",
+                },
+              },
+            },
+          },
           'gatsby-remark-prismjs-title',     // 追加
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
