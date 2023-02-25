@@ -1,13 +1,13 @@
 ---
-title: スーパーコンピュータでPythonサンプルプログラムを動かす
-date: "2022-12-07"
+title: スーパーコンピュータでPythonサンプルプログラムを動かす（cupy）
+date: "2023-02-25"
 category: "コンピュータ"
 tags: []
-slug: /articles/supercomputer/
+slug: /articles/supercomputer-cupy/
 ---
 
 
-# スーパーコンピュータでサンプルプログラムを動かす
+# スーパーコンピュータでサンプルプログラムを動かす（cupy）
 以下の手順に従って、Pythonで書かれたサンプルプログラムをスーパーコンピュータ(Wisteria)上で動かす。
 
 1. workディレクトリ配下に移動して、sampleディレクトリを作成する
@@ -25,12 +25,11 @@ show_module
 
 ![show_moduleコマンド](./show_module.png)
 
-今回はgcc/8.3.1とpython/3.8.12モジュール環境を利用する。
+今回はCUDA Toolkitモジュール環境を利用する。
 
-3. 以下のコマンドを実行して、Python3.8.12を利用できるようにする
+3. 以下のコマンドを実行して、CUDA Toolkitを利用できるようにする
 ```
-module load gcc/8.3.1
-module load python/3.8.12
+module load cuda/11.4
 ```
 
 4. 以下のコマンドを実行して、読み込んだモジュールを確認する
@@ -40,8 +39,7 @@ module list
 
 出力
 ```
-Currently Loaded Modulefiles:
- 1) gcc/8.3.1(default)   2) python/3.8.12
+ 1) cuda/11.4(default)  
 ```
 
 モジュールを消去したい場合は"module purge"を使う。
@@ -78,7 +76,7 @@ source venv/bin/activate
 6. 以下のコマンドを実行し、PyTorchとPandasをインストールする
 ```
 pip3 install --upgrade pip setuptools
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip3 install --no-cache-dir cupy-cuda114
 pip3 install pandas
 ```
 
@@ -87,13 +85,13 @@ pip3 install pandas
 pytorch.py
 ```
 try:
-    import torch
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    print(f'PyTorch Success!')
-    print(f'Device: "{device}"')
+    a = cp.random.rand(100,100)
+    cp.dot(a,a)
+    print(f'Cupy Success!')
+
 except Exception as e:
     print(f"Error: {e}")
-    
+
 try:
     import pandas
     print("Pandas Success!")
@@ -110,10 +108,10 @@ pytorch.sh
 #PJM -g <プロジェクトコード>
 #PJM -j
 
-module load gcc/8.3.1
-module load python/3.8.12
+export HOME=/work/gc20/c20364/cupy
+module load cuda/11.4
 source venv/bin/activate
-python3 pytorch.py
+python3 sample_cupy.py
 ```
 
 プロジェクトコードについては各自割り当てられたものを記入する。また、ジョブクラスには"share-debug"を指定した。使用可能なジョブクラスについては以下のリンクを参照。  
@@ -142,8 +140,7 @@ pjsubなどのコマンドは富士通独自のもので、使用するスーパ
 Inportエラーが発生しておらず、GPU(Cuda)の読み込みができていることを確認する。
 
 ```
-PyTorch Success!
-Device: "cuda:0"
+Cupy Success!
 Pandas Success!
 ```
 
