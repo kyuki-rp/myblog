@@ -117,7 +117,7 @@ https://www.cc.u-tokyo.ac.jp/supercomputer/wisteria/service/job.php
 8. 以下のコマンドを実行し、サンプルプログラムジョブを投げる
 
 ```
-pjsub pytorch.sh
+pjsub sample_cupy.sh
 ```
 
 ■ ジョブ管理コマンド
