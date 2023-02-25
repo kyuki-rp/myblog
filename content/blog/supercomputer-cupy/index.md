@@ -37,8 +37,7 @@ module load cuda/11.4
 module list
 ```
 
-出力
-```
+```javascript:title=Output
  1) cuda/11.4(default)  
 ```
 
@@ -48,8 +47,7 @@ module purge
 module list
 ```
 
-出力
-```
+```javascript:title=Output
 No Modulefiles Currently Loaded.
 ```
 
@@ -82,8 +80,7 @@ pip3 install pandas
 
 7. sampleディレクトリ直下に、pytorch.pyとpytorch.shを作成する
 
-sample_cupy.py
-```
+```javascript:title=sample_cupy.py
 try:
     a = cp.random.rand(100,100)
     cp.dot(a,a)
@@ -99,8 +96,7 @@ except Exception as e:
     print(f"Error: {e}")
 ```
 
-sample_cupy.sh
-```
+```javascript:title=sample_cupy.sh
 #!/bin/sh
 #PJM -L rscgrp=share-debug
 #PJM -L gpu=1
