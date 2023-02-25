@@ -38,8 +38,7 @@ module load python/3.8.12
 module list
 ```
 
-出力
-```
+```javascript:title=Output
 Currently Loaded Modulefiles:
  1) gcc/8.3.1(default)   2) python/3.8.12
 ```
@@ -50,8 +49,7 @@ module purge
 module list
 ```
 
-出力
-```
+```javascript:title=Output
 No Modulefiles Currently Loaded.
 ```
 
@@ -82,10 +80,9 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 pip3 install pandas
 ```
 
-7. sampleディレクトリ直下に、pytorch.pyとpytorch.shを作成する
+7. sampleディレクトリ直下に、以下のファイルを作成する
 
-pytorch.py
-```
+```javascript:title=pytorch.py
 try:
     import torch
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -101,8 +98,7 @@ except Exception as e:
     print(f"Error: {e}")
 ```
 
-pytorch.sh
-```
+```javascript:title=pytorch.sh
 #!/bin/sh
 #PJM -L rscgrp=share-debug
 #PJM -L gpu=1

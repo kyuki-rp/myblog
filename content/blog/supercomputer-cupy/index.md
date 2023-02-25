@@ -78,10 +78,11 @@ pip3 install --no-cache-dir cupy-cuda114
 pip3 install pandas
 ```
 
-7. sampleディレクトリ直下に、pytorch.pyとpytorch.shを作成する
+7. sampleディレクトリ直下に、以下のファイルを作成する
 
 ```javascript:title=sample_cupy.py
 try:
+    import cupy as cp
     a = cp.random.rand(100,100)
     cp.dot(a,a)
     print(f'Cupy Success!')
