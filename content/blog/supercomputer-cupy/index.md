@@ -82,7 +82,7 @@ pip3 install pandas
 
 7. sampleディレクトリ直下に、pytorch.pyとpytorch.shを作成する
 
-pytorch.py
+sample_cupy.py
 ```
 try:
     a = cp.random.rand(100,100)
@@ -99,7 +99,7 @@ except Exception as e:
     print(f"Error: {e}")
 ```
 
-pytorch.sh
+sample_cupy.sh
 ```
 #!/bin/sh
 #PJM -L rscgrp=share-debug
