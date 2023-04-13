@@ -1,13 +1,13 @@
 ---
-title: スーパーコンピュータでPythonサンプルプログラムを動かす（cupy）
-date: "2023-02-25"
+title: スーパーコンピュータでPythonサンプルプログラムを動かす（mpi4py）
+date: "2023-4-13"
 category: "コンピュータ"
 tags: []
-slug: /articles/supercomputer-cupy/
+slug: /articles/supercomputer-mpi4py/
 ---
 
 
-# スーパーコンピュータでサンプルプログラムを動かす（cupy）
+# スーパーコンピュータでサンプルプログラムを動かす（mpi4py）
 以下の手順に従って、Pythonで書かれたサンプルプログラムをスーパーコンピュータ(Wisteria)上で動かす。
 
 1. workディレクトリ配下に移動して、sampleディレクトリを作成する
@@ -25,11 +25,15 @@ show_module
 
 ![show_moduleコマンド](./show_module.png)
 
-今回はCUDA Toolkitモジュール環境を利用する。
+今回はgcc/8.3.1とpython/3.8.12モジュール環境を利用する。
 
-3. 以下のコマンドを実行して、CUDA Toolkitを利用できるようにする
+3. 以下のコマンドを実行して、Python3.8.12を利用できるようにする
 ```
-module load cuda/11.4
+pjsub --interact -g <プロジェクトコード> -L rscgrp=interactive-o,node=1
+module purge
+module load gcc/8.3.1
+module load fjmpi/1.2.37
+module load mpi4py/3.1.1
 ```
 
 4. 以下のコマンドを実行して、読み込んだモジュールを確認する
@@ -38,7 +42,8 @@ module list
 ```
 
 ```javascript:title=Output
- 1) cuda/11.4(default)  
+Currently Loaded Modulefiles:
+ 1) gcc/8.3.1   2) fjmpi/1.2.37   3) mpi4py/3.1.1  
 ```
 
 モジュールを消去したい場合は"module purge"を使う。
@@ -71,22 +76,18 @@ python3 -mvenv venv
 source venv/bin/activate
 ```
 
-6. 以下のコマンドを実行し、PyTorchとPandasをインストールする
+6. 以下のコマンドを実行し、Pandasをインストールする
 ```
 pip3 install --upgrade pip setuptools
-pip3 install --no-cache-dir cupy-cuda114
 pip3 install pandas
 ```
 
 7. sampleディレクトリ直下に、以下のファイルを作成する
 
-```javascript:title=sample.py
+```javascript:title=sample.py  
 try:
-    import cupy as cp
-    a = cp.random.rand(100,100)
-    cp.dot(a,a)
-    print(f'Cupy Success!')
-
+  from mpi4py import MPI
+  print("mpi4py Success!")
 except Exception as e:
     print(f"Error: {e}")
 
@@ -99,19 +100,24 @@ except Exception as e:
 
 ```javascript:title=sample.sh
 #!/bin/sh
-#PJM -L rscgrp=share-debug
-#PJM -L gpu=1
+#PJM -L rscgrp=debug-o
+#PJM -L node=4
+#PJM --mpi proc=4
 #PJM -L elapse=0:10:00
 #PJM -g <プロジェクトコード>
 #PJM -j
 
-export HOME=/work/gc20/c20364/cupy
-module load cuda/11.4
+module purge
+module load gcc/8.3.1
+module load fjmpi/1.2.37
+module load mpi4py/3.1.1
+export LD_PRELOAD=/usr/lib/FJSVtcs/ple/lib64/libpmix.so
+
 source venv/bin/activate
-python3 sample.py
+mpiexec -n ${PJM_MPI_PROC} python3 sample.py
 ```
 
-プロジェクトコードについては各自割り当てられたものを記入する。また、ジョブクラスには"share-debug"を指定した。使用可能なジョブクラスについては以下のリンクを参照。  
+プロジェクトコードについては各自割り当てられたものを記入する。また、ジョブクラスには"debug-o"を指定した。使用可能なジョブクラスについては以下のリンクを参照。  
 https://www.cc.u-tokyo.ac.jp/supercomputer/wisteria/service/job.php
 
 8. 以下のコマンドを実行し、サンプルプログラムジョブを投げる
@@ -134,10 +140,19 @@ pjsubなどのコマンドは富士通独自のもので、使用するスーパ
 
 9. 出力ファイルを確認する
 
-Inportエラーが発生しておらず、GPU(Cuda)の読み込みができていることを確認する。
+Inportエラーが発生しておらず、mpi4pyの読み込みができていることを確認する。
 
 ```
-Cupy Success!
+Unloading odyssey
+  WARNING: Did not unuse /work/opt/local/modules/modulefiles/WO/odyssey/core
+  WARNING: Did not unuse /work/opt/local/modules/modulefiles/WO/odyssey/util
+mpi4py Success!
+Pandas Success!
+mpi4py Success!
+Pandas Success!
+mpi4py Success!
+Pandas Success!
+mpi4py Success!
 Pandas Success!
 ```
 

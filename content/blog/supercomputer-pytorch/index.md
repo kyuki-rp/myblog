@@ -82,7 +82,7 @@ pip3 install pandas
 
 7. sampleディレクトリ直下に、以下のファイルを作成する
 
-```javascript:title=pytorch.py
+```javascript:title=sample.py
 try:
     import torch
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -98,7 +98,7 @@ except Exception as e:
     print(f"Error: {e}")
 ```
 
-```javascript:title=pytorch.sh
+```javascript:title=sample.sh
 #!/bin/sh
 #PJM -L rscgrp=share-debug
 #PJM -L gpu=1
@@ -109,7 +109,7 @@ except Exception as e:
 module load gcc/8.3.1
 module load python/3.8.12
 source venv/bin/activate
-python3 pytorch.py
+python3 sample.py
 ```
 
 プロジェクトコードについては各自割り当てられたものを記入する。また、ジョブクラスには"share-debug"を指定した。使用可能なジョブクラスについては以下のリンクを参照。  
@@ -118,7 +118,7 @@ https://www.cc.u-tokyo.ac.jp/supercomputer/wisteria/service/job.php
 8. 以下のコマンドを実行し、サンプルプログラムジョブを投げる
 
 ```
-pjsub pytorch.sh
+pjsub sample.sh
 ```
 
 ■ ジョブ管理コマンド
