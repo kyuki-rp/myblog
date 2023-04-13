@@ -1,6 +1,6 @@
 ---
 title: スーパーコンピュータでPythonサンプルプログラムを動かす（mpi4py）
-date: "2023-4-13"
+date: "2023-04-13"
 category: "コンピュータ"
 tags: []
 slug: /articles/supercomputer-mpi4py/
