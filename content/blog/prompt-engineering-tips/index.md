@@ -258,7 +258,7 @@ A：
 
 ```text:title=プロンプト
 続き
-``
+```
 
 ```text:title=プロンプト
 go on
