@@ -18,10 +18,11 @@ ChatGPTでは、Webサイトから利用できるサービスとAPIから利用�
 
 ||Web|API|
 |---|---|---|
-|GPT-3.5|無料|従量課金（$0.002/1kトークン）|
-|GPT-4|定額（$20/月）|従量課金（$0.03/1kトークン）|
+|GPT-3.5-turbo|無料|従量課金($0.002/1Kトークン)|
+|GPT-4(8K context)|定額($20/月)|従量課金(入力: $0.03/1Kトークン, 応答: $0.06/1Kトークン)|
+|GPT-4(32K context)|未公開|従量課金(入力: $0.06/1Kトークン, 応答: $0.12/1Kトークン)|
 
-ChatGPTの登録時に、APIが無料で使える18ドル分のチケットが付与されるため、「APIは無料で使える」と思われがちだが、18ドル分使用後、あるいは一定期間経過後に利用できなくなる。
+ChatGPTの登録時に、APIが無料で使える18ドル分のチケットが付与されるが、課金しなければ18ドル分使用後、あるいは一定期間経過後に利用できなくなる。
 
 APIは従量課金なので、利用する際は課金額の上限を設定しておくとよい。
 
@@ -310,6 +311,7 @@ for i in ["テロ","お菓子","人間"]:
 
 # 参考資料
 + [Prompt Engineering Guide](https://www.promptingguide.ai/jp)
++ [https://openai.com/pricing](https://openai.com/pricing)
 + [ChatGPT APIを使う前に知っておきたい前提知識](https://pouhon.net/chatgpt-api/7694/)
 + [架空パラメーターによるChatGPTの文章表現の操作](https://note.com/it_navi/n/n3d64d1a0b6eb)
 
