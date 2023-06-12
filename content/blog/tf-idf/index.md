@@ -26,11 +26,10 @@ $$
 \rm{idf}(t) = log \frac{N}{\rm{df}(t)}
 $$
 
-<span>　</span> ただし、  
-<span>　</span> $n_{t,d}$：文章$d$内での単語$t$の出現回数  
-<span>　</span> $\sum_{s \in d} n_{s,d}$：文章$d$内のすべての単語の出現回数の和  
-<span>　</span> $N$：全文章数  
-<span>　</span> $\rm{df}(t)$：単語$t$が出現する文章の数
+<span>　　</span> $n_{t,d}$：文章$d$内での単語$t$の出現回数  
+<span>　　</span> $\sum_{s \in d} n_{s,d}$：文章$d$内のすべての単語の出現回数の和  
+<span>　　</span> $N$：全文章数  
+<span>　　</span> $\rm{df}(t)$：単語$t$が出現する文章の数
 
 なお、scikit-learnでの$\rm{idf}(t)$の定義は若干異なっている。
 
