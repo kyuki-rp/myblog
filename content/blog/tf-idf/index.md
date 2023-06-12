@@ -14,31 +14,33 @@ TFは同じ文章内での出現頻度が高い単語ほど重みが大きくな
 TF-IDFによる各文章d 中の単語tの重みは、以下の式で表される。
 
 $$
-tfidf(t,d) = tf(t,d) x idf(t)
+\rm{tfidf}(t,d) = \rm{tf}(t,d)} \times \rm{idf}(t)
 $$
 
 tf(t,d)は文章d の内の単語tの出現率、idf(t)は単語tが出現する文章の割合の逆数であり、以下の式で表される。
 
 $$
-tf(t, d) = \frac{n_{t,d}}{\sum_{s \in d} n_{s,d}}
+\rm{tf}(t, d) = \frac{n_{t,d}}{\sum_{s \in d} n_{s,d}}
 $$
 $$
-idf(t) = log \frac{N}{df(t)}
+\rm{idf}(t) = log \frac{N}{\rm{df}(t)}
 $$
 
-![TF-IDF](./tf-idf-2.png)
+$n_{t,d}$：文章$d$内での単語$t$の出現回数  
+$\sum_{s \in d} n_{s,d}$：文章$d$内のすべての単語の出現回数の和  
+$N$：全文章数  
+$df(t)$：単語$t$が出現する文章の数
 
-
-なお、scikit-learnでの<em>idf(t)</em>の定義は若干異なっている。
+なお、scikit-learnでのidf(t)の定義は若干異なっている。
 
 smooth_idf=Falseの場合、
 
 $$
-idf(t) = log \frac{N}{df(t)} + 1
+\rm{idf}(t) = log \frac{N}{\rm{df}(t)} + 1
 $$
 
 smooth_idf=Trueの場合、
 
 $$
-idf(t) = log \frac{N+1}{df(t)+1} + 1
+\rm{idf}(t) = log \frac{N+1}{\rm{df}(t)+1} + 1
 $$
