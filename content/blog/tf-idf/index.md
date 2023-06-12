@@ -13,15 +13,18 @@ TFは同じ文章内での出現頻度が高い単語ほど重みが大きくな
 
 TF-IDFによる各文章d 中の単語tの重みは、以下の式で表される。
 
-<div style="text-align: center;">
 $$
 tfidf(t,d) = tf(t,d) x idf(t)
 $$
-</div>
 
 tf(t,d)は文章d の内の単語tの出現率、idf(t)は単語tが出現する文章の割合の逆数であり、以下の式で表される。
 
-![TF-IDF](./tf-idf-1.png)
+$$
+tf(t, d) = \frac{n_{t,d}}{\sum_{s \in d} n_{s,d}}
+$$
+$$
+idf(t) = log \frac{N}{df(t)}
+$$
 
 ![TF-IDF](./tf-idf-2.png)
 
@@ -30,8 +33,12 @@ tf(t,d)は文章d の内の単語tの出現率、idf(t)は単語tが出現する
 
 smooth_idf=Falseの場合、
 
-![TF-IDF](./tf-idf-3.png)
+$$
+idf(t) = log \frac{N}{df(t)} + 1
+$$
 
 smooth_idf=Trueの場合、
 
-![TF-IDF](./tf-idf-4.png)
+$$
+idf(t) = log \frac{N+1}{df(t)+1} + 1
+$$
