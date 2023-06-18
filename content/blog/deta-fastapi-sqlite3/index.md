@@ -7,7 +7,7 @@ slug: /articles/deta-space-sqlite/
 ---
 
 # Deta SpaceでSqliteを利用するための手順
-FastAPI+SQLiteで作ったアプリを無料でサクッとデプロイしたい場合の選択肢としてData Spaceでデプロイする手順を以下に示す。
+FastAPI+SQLiteで作ったアプリをData Spaceに無料でサクッとデプロイするための手順を以下に示す。
 
 1. Deta Collectionを新規作成する
 
@@ -80,7 +80,6 @@ def get_db():
     finally:
         db.close()
 ```
-
 ※ <コレクションのデータキー>の部分は各自のデータキーに置き換える
 
 ```python:title=models.py
@@ -252,7 +251,6 @@ def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     items = crud.get_items(db, skip=skip, limit=limit)
     return items
 ```
-
 
 ```python:title=Deta_Drive_Database_api.py
 import io
@@ -529,3 +527,5 @@ https://qiita.com/kakiuchis/items/80f6239f6319066ee18d
 # 参考資料
 + https://fastapi.tiangolo.com/ja/tutorial/sql-databases/
 + https://gitlab.com/AhmadFijr/remote-sqlite-db-on-deta.space
++ https://deta.space/builder/new
++ https://qiita.com/kakiuchis/items/80f6239f6319066ee18d
