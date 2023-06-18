@@ -11,7 +11,7 @@ FastAPI+SQLiteで作ったアプリを無料でサクッとデプロイしたい
 
 1. Deta Collectionを新規作成する
 
-1. Collectionの中に「sample_app_drive」という名前でDriveを新規作成する
+2. Collectionの中に「sample_app_drive」という名前でDriveを新規作成する
 
 「New Drive」をクリック
 ![NewDrive](./NewDrive.png)
@@ -19,7 +19,7 @@ FastAPI+SQLiteで作ったアプリを無料でサクッとデプロイしたい
 「sample_app_drive」と入力して「Create」をクリック
 ![CreateDrive](./CreateDrive.png)
 
-1. Collection Settingsからコレクションのデータキーを作成する
+3. Collection Settingsからコレクションのデータキーを作成する
 
 「Collection Settings」をクリック
 ![CollectionSetting](./CollectionSetting.png)
@@ -33,7 +33,7 @@ FastAPI+SQLiteで作ったアプリを無料でサクッとデプロイしたい
 データキーが表示されるのでコピーしておく
 ![DataKeyCopy](./DataKeyCopy.png)
 
-1. 以下の構成でファイルを作成する
+4. 以下の構成でファイルを作成する
 
 .  
 ├── crud.py  
@@ -520,10 +520,10 @@ uvicorn
 sqlalchemy
 ```
 
-1. 以下の記事を参考にDeta Spaceにデプロイする
+5. 以下の記事を参考にDeta Spaceにデプロイする
 https://deta.space/builder/new
 
-1. 必要に応じて、以下の記事を参考にWEB公開、アプリのリリースを実施する
+6. 必要に応じて、以下の記事を参考にWEB公開、アプリのリリースを実施する
 https://qiita.com/kakiuchis/items/80f6239f6319066ee18d
 
 # 参考資料
