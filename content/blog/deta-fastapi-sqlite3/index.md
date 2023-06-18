@@ -1,12 +1,12 @@
 ---
-title: Data SpaceでSqliteを利用する
+title: Deta SpaceでSqliteを利用する
 date: "2023-06-18"
 category: "プログラミング"
-tags: ["Data Space", "FastAPI", "Sqlite"]
+tags: ["Deta Space", "FastAPI", "Sqlite"]
 slug: /articles/deta-space-sqlite/
 ---
 
-# Data SpaceでSqliteを利用する
+# Deta SpaceでSqliteを利用するための手順
 FastAPI+SQLiteで作ったアプリを無料でサクッとデプロイしたい場合の選択肢としてData Spaceでデプロイする手順を以下に示す。
 
 1. Deta Collectionを新規作成する
