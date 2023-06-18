@@ -7,7 +7,7 @@ slug: /articles/deta-space-sqlite/
 ---
 
 # Deta SpaceでSqliteを利用するための手順
-FastAPI+SQLiteで作ったアプリをData Spaceに無料でサクッとデプロイするための手順を以下に示す。
+FastAPI+SQLiteで作ったアプリをData Spaceに無料でサクッとデプロイするための手順を以下に示す。本記事では、Deta Spaceが対応しているバージョンに合わせてPython 3.9を使用。
 
 1. Deta Collectionを新規作成する
 
