@@ -82,7 +82,7 @@ def get_db():
 ```
 ※ <コレクションのデータキー>の部分は各自のデータキーに置き換える
 
-Copyright (c) 2023 Ahmad Fijr  
+> Copyright (c) 2023 Ahmad Fijr  
 Released under the MIT license  
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
@@ -115,7 +115,7 @@ class Item(Base):
     owner = relationship("User", back_populates="items")
 ```
 
-Copyright (c) 2018 Sebastián Ramírez  
+> Copyright (c) 2018 Sebastián Ramírez  
 Released under the MIT license  
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
@@ -159,7 +159,7 @@ class User(UserBase):
         orm_mode = True
 ```
 
-Copyright (c) 2018 Sebastián Ramírez  
+> Copyright (c) 2018 Sebastián Ramírez  
 Released under the MIT license  
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
@@ -202,7 +202,7 @@ def create_user_item(db: Session, item: schemas.ItemCreate, user_id: int):
     return db_item
 ```
 
-Copyright (c) 2018 Sebastián Ramírez  
+> Copyright (c) 2018 Sebastián Ramírez  
 Released under the MIT license  
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
@@ -268,7 +268,7 @@ def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return items
 ```
 
-Copyright (c) 2018 Sebastián Ramírez  
+> Copyright (c) 2018 Sebastián Ramírez  
 Released under the MIT license  
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
@@ -531,7 +531,7 @@ if __name__ == "__main__":
     db.close()
 ```
 
-Copyright (c) 2023 Ahmad Fijr  
+> Copyright (c) 2023 Ahmad Fijr  
 Released under the MIT license  
 [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
