@@ -45,6 +45,12 @@ FastAPI+SQLiteで作ったアプリをData Spaceに無料でサクッとデプ�
 └── requirements.txt  
 
 ```python:title=database.py
+# Copyright (c) 2023 Ahmad Fijr
+#
+# Released under the MIT license
+# see https://opensource.org/license/mit/
+
+
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import sessionmaker
 from Deta_Drive_Database_api import DetaDriveDatabase
@@ -82,11 +88,13 @@ def get_db():
 ```
 ※ <コレクションのデータキー>の部分は各自のデータキーに置き換える
 
-> Copyright (c) 2023 Ahmad Fijr  
-> Released under the MIT license  
-> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
-
 ```python:title=models.py
+# Copyright (c) 2018 Sebastián Ramírez
+#
+# Released under the MIT license
+# see https://opensource.org/license/mit/
+
+
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 
@@ -115,11 +123,13 @@ class Item(Base):
     owner = relationship("User", back_populates="items")
 ```
 
-> Copyright (c) 2018 Sebastián Ramírez  
-> Released under the MIT license  
-> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
-
 ```python:title=schemas.py
+# Copyright (c) 2018 Sebastián Ramírez
+#
+# Released under the MIT license
+# see https://opensource.org/license/mit/
+
+
 from typing import Union
 
 from pydantic import BaseModel
@@ -159,11 +169,13 @@ class User(UserBase):
         orm_mode = True
 ```
 
-> Copyright (c) 2018 Sebastián Ramírez  
-> Released under the MIT license  
-> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
-
 ```python:title=crud.py
+# Copyright (c) 2018 Sebastián Ramírez
+#
+# Released under the MIT license
+# see https://opensource.org/license/mit/
+
+
 from sqlalchemy.orm import Session
 
 import models, schemas
@@ -202,11 +214,13 @@ def create_user_item(db: Session, item: schemas.ItemCreate, user_id: int):
     return db_item
 ```
 
-> Copyright (c) 2018 Sebastián Ramírez  
-> Released under the MIT license  
-> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
-
 ```python:title=main.py
+# Copyright (c) 2018 Sebastián Ramírez
+#
+# Released under the MIT license
+# see https://opensource.org/license/mit/
+
+
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
@@ -268,11 +282,13 @@ def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return items
 ```
 
-> Copyright (c) 2018 Sebastián Ramírez  
-> Released under the MIT license  
-> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
-
 ```python:title=Deta_Drive_Database_api.py
+# Copyright (c) 2023 Ahmad Fijr
+#
+# Released under the MIT license
+# see https://opensource.org/license/mit/
+
+
 import io
 import random
 from deta import Deta
@@ -530,10 +546,6 @@ if __name__ == "__main__":
     # Close the database connection
     db.close()
 ```
-
-> Copyright (c) 2023 Ahmad Fijr  
-> Released under the MIT license  
-> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```text:title=requirements.txt
 deta
