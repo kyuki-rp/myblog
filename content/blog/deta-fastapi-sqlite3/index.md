@@ -83,8 +83,8 @@ def get_db():
 ※ <コレクションのデータキー>の部分は各自のデータキーに置き換える
 
 > Copyright (c) 2023 Ahmad Fijr  
-Released under the MIT license  
-[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+> Released under the MIT license  
+> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=models.py
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
@@ -116,8 +116,8 @@ class Item(Base):
 ```
 
 > Copyright (c) 2018 Sebastián Ramírez  
-Released under the MIT license  
-[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+> Released under the MIT license  
+> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=schemas.py
 from typing import Union
@@ -160,8 +160,8 @@ class User(UserBase):
 ```
 
 > Copyright (c) 2018 Sebastián Ramírez  
-Released under the MIT license  
-[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+> Released under the MIT license  
+> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=crud.py
 from sqlalchemy.orm import Session
@@ -203,8 +203,8 @@ def create_user_item(db: Session, item: schemas.ItemCreate, user_id: int):
 ```
 
 > Copyright (c) 2018 Sebastián Ramírez  
-Released under the MIT license  
-[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+> Released under the MIT license  
+> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=main.py
 from fastapi import Depends, FastAPI, HTTPException
@@ -269,8 +269,8 @@ def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
 ```
 
 > Copyright (c) 2018 Sebastián Ramírez  
-Released under the MIT license  
-[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+> Released under the MIT license  
+> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=Deta_Drive_Database_api.py
 import io
@@ -532,8 +532,8 @@ if __name__ == "__main__":
 ```
 
 > Copyright (c) 2023 Ahmad Fijr  
-Released under the MIT license  
-[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+> Released under the MIT license  
+> [https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```text:title=requirements.txt
 deta
