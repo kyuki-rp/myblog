@@ -115,6 +115,10 @@ class Item(Base):
     owner = relationship("User", back_populates="items")
 ```
 
+Copyright (c) 2018 Sebastián Ramírez
+Released under the MIT license
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+
 ```python:title=schemas.py
 from typing import Union
 
@@ -194,6 +198,10 @@ def create_user_item(db: Session, item: schemas.ItemCreate, user_id: int):
     return db_item
 ```
 
+Copyright (c) 2018 Sebastián Ramírez
+Released under the MIT license
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
+
 ```python:title=main.py
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -255,6 +263,10 @@ def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     items = crud.get_items(db, skip=skip, limit=limit)
     return items
 ```
+
+Copyright (c) 2018 Sebastián Ramírez
+Released under the MIT license
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=Deta_Drive_Database_api.py
 import io
