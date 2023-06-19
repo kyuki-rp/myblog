@@ -7,7 +7,7 @@ slug: /articles/deta-space-sqlite/
 ---
 
 # Deta SpaceでSqliteを利用するための手順
-FastAPI+SQLiteで作ったアプリをData Spaceに無料でサクッとデプロイするための手順を以下に示す。本記事では、Deta Spaceが対応しているバージョンに合わせてPython 3.9を使用。
+FastAPI+SQLiteで作ったアプリをData Spaceに無料でサクッとデプロイするための手順を以下に示す。本記事では、Deta Spaceが現在（2023年6月18日時点）対応しているバージョンに合わせてPython 3.9を想定。
 
 1. Deta Collectionを新規作成する
 
@@ -81,6 +81,10 @@ def get_db():
         db.close()
 ```
 ※ <コレクションのデータキー>の部分は各自のデータキーに置き換える
+
+Copyright (c) 2023 Ahmad Fijr
+Released under the MIT license
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```python:title=models.py
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
@@ -510,6 +514,10 @@ if __name__ == "__main__":
     # Close the database connection
     db.close()
 ```
+
+Copyright (c) 2023 Ahmad Fijr
+Released under the MIT license
+[https://opensource.org/licenses/mit-license.php](https://opensource.org/licenses/mit-license.php)
 
 ```text:title=requirements.txt
 deta
