@@ -103,16 +103,16 @@ if __name__ == "__main__":
     streamlit_run()
 ```
 
-exeファイルが読み込めるようにdistの配下にmain.pyをコピーしておく。
-
-./dist
-└ main.py
-
 ターミナルでexeファイル作成用のコマンドを実行する。
 
 ```
 pyinstaller run_main.py --onefile --copy-metadata=streamlit
 ```
+
+exeファイルが読み込めるようにdistの配下にmain.pyをコピーしておく。
+
+./dist  
+└ main.py  
 
 生成されたexeファイルを実行すると、streamlitが利用するhtml、css、jsなどのファイルがTEMPディレクトリに展開されていないため、以下のようなエラーが出る。
 ```
