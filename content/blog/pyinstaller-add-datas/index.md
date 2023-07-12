@@ -112,7 +112,7 @@ pyinstaller run_main.py --onefile --copy-metadata=streamlit
 exeファイルが読み込めるようにdistの配下にmain.pyをコピーしておく。
 
 ./dist  
-└ main.py  
+　└ main.py  
 
 生成されたexeファイルを実行すると、streamlitが利用するhtml、css、jsなどのファイルがTEMPディレクトリに展開されていないため、以下のようなエラーが出る。
 ```
