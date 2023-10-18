@@ -2,7 +2,7 @@
 title: BERT
 category: "AI"
 tags: ["BERT"]
-slug: /articles/nlp/bert/
+slug: /articles/bert/
 ---
 
 # BERTとは

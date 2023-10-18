@@ -2,7 +2,7 @@
 title: Transformer
 category: "AI"
 tags: ["Transformer"]
-slug: /articles/nlp/transformer/
+slug: /articles/transformer/
 ---
 
 

@@ -2,7 +2,7 @@
 title: Attention
 category: "AI"
 tags: ["Attention"]
-slug: /articles/nlp/attention/
+slug: /articles/attention/
 ---
 
 # Attentionとは

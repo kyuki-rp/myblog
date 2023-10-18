@@ -2,7 +2,7 @@
 title: Doc2Vec
 category: "AI"
 tags: []
-slug: /articles/nlp/doc2vec/
+slug: /articles/doc2vec/
 ---
 
 # Doc2Vecとは

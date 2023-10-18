@@ -2,7 +2,7 @@
 title: T5
 category: "AI"
 tags: ["T5"]
-slug: /articles/nlp/t5/
+slug: /articles/t5/
 ---
 
 

@@ -2,7 +2,7 @@
 title: SWEM
 category: "AI"
 tags: ["SWEM"]
-slug: /articles/nlp/swem/
+slug: /articles/swem/
 ---
 
 

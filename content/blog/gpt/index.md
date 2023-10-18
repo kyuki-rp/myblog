@@ -2,7 +2,7 @@
 title: GPT
 category: "AI"
 tags: []
-slug: /articles/nlp/gpt/
+slug: /articles/gpt/
 ---
 
 

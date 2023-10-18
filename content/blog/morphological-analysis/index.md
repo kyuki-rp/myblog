@@ -2,7 +2,7 @@
 title: 形態素解析
 category: "AI"
 tags: ["形態素解析"]
-slug: /articles/nlp/morphological-analysis/
+slug: /articles/morphological-analysis/
 ---
 
 

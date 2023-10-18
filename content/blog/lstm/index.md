@@ -3,7 +3,7 @@ title: LSTM
 date: "2021-11-12"
 category: "AI"
 tags: ["LSTM", "RNN"]
-slug: /articles/nlp/lstm/
+slug: /articles/lstm/
 ---
 
 # RNNとは

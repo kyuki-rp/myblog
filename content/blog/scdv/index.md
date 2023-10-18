@@ -2,7 +2,7 @@
 title: SCDV
 category: "AI"
 tags: []
-slug: /articles/nlp/scdv/
+slug: /articles/scdv/
 ---
 
 

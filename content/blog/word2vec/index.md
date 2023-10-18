@@ -2,7 +2,7 @@
 title: Word2Vec
 category: "AI"
 tags: ["Word2Vec", "CBOW", "skip-gram"]
-slug: /articles/nlp/word2vec/
+slug: /articles/word2vec/
 ---
 
 

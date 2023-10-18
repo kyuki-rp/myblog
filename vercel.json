@@ -95,6 +95,82 @@
       {
         "source": "/articles/design/dependency-inversion-principle/",
         "destination": "/articles/solid/"
+      },
+      {
+        "source": "/articles/nlp/attention/",
+        "destination": "/articles/attention/"
+      },
+      {
+        "source": "/articles/nlp/bag-of-words/",
+        "destination": "/articles/bag-of-words/"
+      },
+      {
+        "source": "/articles/nlp/bert/",
+        "destination": "/articles/bert/"
+      },
+      {
+        "source": "/articles/nlp/doc2vec/",
+        "destination": "/articles/doc2vec/"
+      },
+      {
+        "source": "/articles/nlp/fasttext/",
+        "destination": "/articles/fasttext/"
+      },
+      {
+        "source": "/articles/nlp/gpt/",
+        "destination": "/articles/gpt/"
+      },
+      {
+        "source": "/articles/nlp/lstm/",
+        "destination": "/articles/lstm/"
+      },
+      {
+        "source": "/articles/nlp/morphological-analysis/",
+        "destination": "/articles/morphological-analysis/"
+      },
+      {
+        "source": "/articles/nlp/natural-language/",
+        "destination": "/articles/natural-language/"
+      },
+      {
+        "source": "/articles/nlp/natural-language-processing/",
+        "destination": "/articles/natural-language-processing/"
+      },
+      {
+        "source": "/articles/nlp/scaling-law/",
+        "destination": "/articles/scaling-law/"
+      },
+      {
+        "source": "/articles/nlp/scdv/",
+        "destination": "/articles/scdv/"
+      },
+      {
+        "source": "/articles/nlp/stemming/",
+        "destination": "/articles/stemming/"
+      },
+      {
+        "source": "/articles/nlp/stop-words/",
+        "destination": "/articles/stop-words/"
+      },
+      {
+        "source": "/articles/nlp/swem/",
+        "destination": "/articles/swem/"
+      },
+      {
+        "source": "/articles/nlp/t5/",
+        "destination": "/articles/t5/"
+      },
+      {
+        "source": "/articles/nlp/tf-idf/",
+        "destination": "/articles/tf-idf/"
+      },
+      {
+        "source": "/articles/nlp/transformer/",
+        "destination": "/articles/transformer/"
+      },
+      {
+        "source": "/articles/nlp/word2vec/",
+        "destination": "/articles/word2vec/"
       }
     ]
   }

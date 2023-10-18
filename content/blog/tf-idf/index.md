@@ -2,7 +2,7 @@
 title: TF-IDF
 category: "AI"
 tags: ["TF-IDF"]
-slug: /articles/nlp/tf-idf/
+slug: /articles/tf-idf/
 ---
 
 

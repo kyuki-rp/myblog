@@ -2,7 +2,7 @@
 title: ステミング
 category: "AI"
 tags: ["ステミング"]
-slug: /articles/nlp/stemming/
+slug: /articles/stemming/
 ---
 
 

@@ -2,7 +2,7 @@
 title: fastText
 category: "AI"
 tags: ["fastText"]
-slug: /articles/nlp/fasttext/
+slug: /articles/fasttext/
 ---
 
 

@@ -2,7 +2,7 @@
 title: Bag-of-Words
 category: "AI"
 tags: ["Bag-of-Words"]
-slug: /articles/nlp/bag-of-words/
+slug: /articles/bag-of-words/
 ---
 
 # Bag-of-Wordsとは

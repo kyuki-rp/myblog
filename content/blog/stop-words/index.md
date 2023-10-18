@@ -2,7 +2,7 @@
 title: ストップワード
 category: "AI"
 tags: ["ストップワード"]
-slug: /articles/nlp/stop-words/
+slug: /articles/stop-words/
 ---
 
 

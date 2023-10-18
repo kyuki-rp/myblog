@@ -2,7 +2,7 @@
 title: 自然言語
 category: "AI"
 tags: ["自然言語"]
-slug: /articles/nlp/natural-language/
+slug: /articles/natural-language/
 ---
 
 

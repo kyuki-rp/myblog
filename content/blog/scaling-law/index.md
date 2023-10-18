@@ -2,7 +2,7 @@
 title: Scaling Law
 category: "AI"
 tags: ["Scaling Law"]
-slug: /articles/nlp/scaling-law/
+slug: /articles/scaling-law/
 ---
 
 
