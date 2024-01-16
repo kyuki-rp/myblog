@@ -25,9 +25,9 @@ show_module
 
 ![show_moduleコマンド](./show_module.png)
 
-今回はgcc/8.3.1とpython/3.8.12モジュール環境を利用する。
+今回はmpi4py/3.1.1とgcc/8.3.1/fjmpi/1.2.37モジュール環境を利用する。
 
-3. 以下のコマンドを実行して、Python3.8.12を利用できるようにする
+3. 以下のコマンドを実行して、mpi4py/3.1.1を利用できるようにする
 ```
 module load gcc/8.3.1
 module load fjmpi/1.2.37
