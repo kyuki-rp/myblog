@@ -29,8 +29,6 @@ show_module
 
 3. 以下のコマンドを実行して、Python3.8.12を利用できるようにする
 ```
-pjsub --interact -g <プロジェクトコード> -L rscgrp=interactive-o,node=1
-module purge
 module load gcc/8.3.1
 module load fjmpi/1.2.37
 module load mpi4py/3.1.1
