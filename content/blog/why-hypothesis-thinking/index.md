@@ -111,6 +111,10 @@ slug: /articles/why-hypothesis-thinking/
 
 ![仮説思考と網羅思考の質](./hypothesis-exhaustive-thinking-quality.jpg)
 
+<div style="text-align: center;">
+（「イシューからはじめよ」より抜粋）
+</div>
+
 # まとめ
 仮説思考とはなにか、仮説思考の3つのメリットと有効性を網羅思考と対比させながら解説しました。
 
